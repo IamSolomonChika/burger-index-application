@@ -1,0 +1,721 @@
+city,platform,cuisine,item_price,delivery_fee,service_fee,total_basket,delivery_time_min,rating,date
+New York,DoorDash,Burger,20.45,8.11,3.13,31.69,53,4.3,2025-07-01
+New York,DoorDash,Pizza,23.79,3.35,3.0,30.14,45,4.3,2025-07-01
+New York,DoorDash,Mexican,23.75,2.9,4.2,30.85,36,4.7,2025-07-01
+New York,DoorDash,Chinese,17.2,8.34,2.44,27.98,50,4.2,2025-07-01
+New York,DoorDash,Thai,22.23,4.42,3.14,29.79,34,3.6,2025-07-01
+New York,DoorDash,Indian,26.89,4.09,2.39,33.37,54,3.8,2025-07-01
+New York,DoorDash,Italian,27.22,6.1,2.3,35.62,43,4.4,2025-07-01
+New York,DoorDash,Sandwich,17.86,2.86,3.11,23.83,38,4.6,2025-07-01
+New York,DoorDash,Salad,15.78,3.33,2.34,21.45,39,4.4,2025-07-01
+New York,Uber Eats,Burger,22.28,7.45,2.17,31.9,41,3.8,2025-07-01
+New York,Uber Eats,Pizza,25.78,4.53,3.4,33.71,34,4.2,2025-07-01
+New York,Uber Eats,Mexican,20.59,7.5,2.57,30.66,34,4.7,2025-07-01
+New York,Uber Eats,Chinese,20.63,7.95,1.83,30.41,47,4.2,2025-07-01
+New York,Uber Eats,Thai,25.86,7.52,4.0,37.38,39,4.6,2025-07-01
+New York,Uber Eats,Indian,23.93,4.36,3.21,31.5,33,3.9,2025-07-01
+New York,Uber Eats,Italian,25.62,2.87,3.13,31.62,25,3.8,2025-07-01
+New York,Uber Eats,Sandwich,16.35,7.35,2.46,26.16,27,4.5,2025-07-01
+New York,Uber Eats,Salad,17.49,7.97,2.54,28.0,52,4.6,2025-07-01
+New York,Grubhub,Burger,21.11,4.64,1.82,27.57,47,4.4,2025-07-01
+New York,Grubhub,Pizza,24.37,6.1,2.62,33.09,27,4.1,2025-07-01
+New York,Grubhub,Mexican,19.92,6.78,3.11,29.81,50,3.8,2025-07-01
+New York,Grubhub,Chinese,17.9,3.01,2.7,23.61,50,3.5,2025-07-01
+New York,Grubhub,Thai,19.86,2.96,2.85,25.67,44,4.2,2025-07-01
+New York,Grubhub,Indian,24.54,3.57,3.45,31.56,39,4.5,2025-07-01
+New York,Grubhub,Italian,24.6,3.22,2.68,30.5,46,4.6,2025-07-01
+New York,Grubhub,Sandwich,18.1,4.44,1.64,24.18,52,4.5,2025-07-01
+New York,Grubhub,Salad,14.87,7.78,1.99,24.64,50,3.7,2025-07-01
+New York,Postmates,Burger,21.71,7.86,2.33,31.9,51,4.1,2025-07-01
+New York,Postmates,Pizza,27.71,7.61,2.24,37.56,32,4.2,2025-07-01
+New York,Postmates,Mexican,24.02,6.66,2.57,33.25,48,4.7,2025-07-01
+New York,Postmates,Chinese,19.99,5.69,3.0,28.68,41,3.6,2025-07-01
+New York,Postmates,Thai,22.66,4.17,3.39,30.22,27,3.9,2025-07-01
+New York,Postmates,Indian,24.37,2.99,3.44,30.8,26,4.0,2025-07-01
+New York,Postmates,Italian,25.63,4.72,3.68,34.03,54,3.7,2025-07-01
+New York,Postmates,Sandwich,19.24,8.31,2.0,29.55,28,3.6,2025-07-01
+New York,Postmates,Salad,17.12,4.14,2.74,24.0,29,4.3,2025-07-01
+Los Angeles,DoorDash,Burger,19.45,5.17,1.73,26.35,25,3.7,2025-07-01
+Los Angeles,DoorDash,Pizza,21.57,5.97,3.58,31.12,52,4.4,2025-07-01
+Los Angeles,DoorDash,Mexican,17.8,5.05,1.83,24.68,31,3.7,2025-07-01
+Los Angeles,DoorDash,Chinese,18.3,4.42,3.18,25.9,25,4.4,2025-07-01
+Los Angeles,DoorDash,Thai,21.34,3.53,2.86,27.73,34,3.8,2025-07-01
+Los Angeles,DoorDash,Indian,22.36,6.57,3.03,31.96,52,3.8,2025-07-01
+Los Angeles,DoorDash,Italian,27.15,7.31,3.69,38.15,51,3.7,2025-07-01
+Los Angeles,DoorDash,Sandwich,15.27,5.99,2.51,23.77,44,4.7,2025-07-01
+Los Angeles,DoorDash,Salad,15.81,5.7,1.4,22.91,32,4.5,2025-07-01
+Los Angeles,Uber Eats,Burger,20.17,5.39,2.36,27.92,49,4.4,2025-07-01
+Los Angeles,Uber Eats,Pizza,19.47,3.29,2.63,25.39,46,4.1,2025-07-01
+Los Angeles,Uber Eats,Mexican,23.26,3.37,1.9,28.53,38,3.9,2025-07-01
+Los Angeles,Uber Eats,Chinese,19.07,5.74,3.15,27.96,41,3.9,2025-07-01
+Los Angeles,Uber Eats,Thai,20.97,5.03,3.01,29.01,46,3.8,2025-07-01
+Los Angeles,Uber Eats,Indian,24.69,4.45,4.18,33.32,51,4.1,2025-07-01
+Los Angeles,Uber Eats,Italian,24.0,5.71,3.53,33.24,25,3.8,2025-07-01
+Los Angeles,Uber Eats,Sandwich,17.51,3.89,1.44,22.84,41,3.6,2025-07-01
+Los Angeles,Uber Eats,Salad,17.06,4.84,1.84,23.74,30,4.0,2025-07-01
+Los Angeles,Grubhub,Burger,16.13,7.13,1.98,25.24,45,4.2,2025-07-01
+Los Angeles,Grubhub,Pizza,23.36,2.86,2.58,28.8,47,3.8,2025-07-01
+Los Angeles,Grubhub,Mexican,19.53,4.35,2.33,26.21,46,4.4,2025-07-01
+Los Angeles,Grubhub,Chinese,17.28,2.97,2.45,22.7,46,4.0,2025-07-01
+Los Angeles,Grubhub,Thai,18.43,3.96,2.07,24.46,32,4.4,2025-07-01
+Los Angeles,Grubhub,Indian,21.94,4.28,2.4,28.62,47,4.0,2025-07-01
+Los Angeles,Grubhub,Italian,22.12,5.55,1.95,29.62,31,4.2,2025-07-01
+Los Angeles,Grubhub,Sandwich,16.82,5.74,2.53,25.09,40,3.6,2025-07-01
+Los Angeles,Grubhub,Salad,15.73,2.63,2.17,20.53,47,4.4,2025-07-01
+Los Angeles,Postmates,Burger,19.25,3.26,3.43,25.94,46,4.3,2025-07-01
+Los Angeles,Postmates,Pizza,20.33,2.67,3.3,26.3,46,4.2,2025-07-01
+Los Angeles,Postmates,Mexican,20.61,6.63,2.21,29.45,36,4.3,2025-07-01
+Los Angeles,Postmates,Chinese,16.77,2.75,2.23,21.75,39,4.4,2025-07-01
+Los Angeles,Postmates,Thai,19.63,3.15,3.47,26.25,34,3.9,2025-07-01
+Los Angeles,Postmates,Indian,24.61,3.84,3.05,31.5,47,3.8,2025-07-01
+Los Angeles,Postmates,Italian,23.84,2.89,2.93,29.66,36,4.0,2025-07-01
+Los Angeles,Postmates,Sandwich,15.85,3.27,1.66,20.78,54,3.6,2025-07-01
+Los Angeles,Postmates,Salad,14.56,7.16,2.09,23.81,53,4.5,2025-07-01
+Chicago,DoorDash,Burger,16.79,4.88,2.05,23.72,36,4.2,2025-07-01
+Chicago,DoorDash,Pizza,17.36,2.72,1.98,22.06,52,3.6,2025-07-01
+Chicago,DoorDash,Mexican,15.77,5.95,2.37,24.09,36,3.5,2025-07-01
+Chicago,DoorDash,Chinese,16.38,5.74,1.88,24.0,54,4.1,2025-07-01
+Chicago,DoorDash,Thai,17.32,4.9,2.49,24.71,26,3.8,2025-07-01
+Chicago,DoorDash,Indian,16.7,6.3,2.17,25.17,48,4.4,2025-07-01
+Chicago,DoorDash,Italian,19.56,2.5,2.82,24.88,41,4.6,2025-07-01
+Chicago,DoorDash,Sandwich,14.68,5.71,2.17,22.56,27,4.3,2025-07-01
+Chicago,DoorDash,Salad,12.89,4.59,2.24,19.72,27,4.6,2025-07-01
+Chicago,Uber Eats,Burger,17.68,3.1,1.9,22.68,36,3.6,2025-07-01
+Chicago,Uber Eats,Pizza,17.19,2.6,2.55,22.34,41,4.4,2025-07-01
+Chicago,Uber Eats,Mexican,17.75,5.19,2.02,24.96,43,3.9,2025-07-01
+Chicago,Uber Eats,Chinese,14.36,5.25,2.05,21.66,53,3.6,2025-07-01
+Chicago,Uber Eats,Thai,17.9,6.45,2.41,26.76,29,4.5,2025-07-01
+Chicago,Uber Eats,Indian,20.94,6.55,2.54,30.03,42,3.8,2025-07-01
+Chicago,Uber Eats,Italian,22.35,6.0,3.04,31.39,36,4.1,2025-07-01
+Chicago,Uber Eats,Sandwich,15.51,5.51,1.4,22.42,41,4.2,2025-07-01
+Chicago,Uber Eats,Salad,13.38,3.9,1.47,18.75,43,4.0,2025-07-01
+Chicago,Grubhub,Burger,14.18,6.17,1.26,21.61,31,4.7,2025-07-01
+Chicago,Grubhub,Pizza,19.19,4.31,2.48,25.98,40,4.1,2025-07-01
+Chicago,Grubhub,Mexican,16.38,3.64,2.41,22.43,28,4.7,2025-07-01
+Chicago,Grubhub,Chinese,15.98,2.69,2.77,21.44,50,3.6,2025-07-01
+Chicago,Grubhub,Thai,17.46,4.13,2.95,24.54,35,4.4,2025-07-01
+Chicago,Grubhub,Indian,20.5,5.22,3.36,29.08,41,3.6,2025-07-01
+Chicago,Grubhub,Italian,18.6,5.27,1.62,25.49,42,4.7,2025-07-01
+Chicago,Grubhub,Sandwich,12.61,4.45,1.3,18.36,32,4.0,2025-07-01
+Chicago,Grubhub,Salad,12.25,5.77,2.14,20.16,49,4.3,2025-07-01
+Chicago,Postmates,Burger,17.03,5.3,2.18,24.51,36,4.2,2025-07-01
+Chicago,Postmates,Pizza,19.83,6.18,1.81,27.82,27,3.8,2025-07-01
+Chicago,Postmates,Mexican,18.5,4.7,2.85,26.05,32,3.7,2025-07-01
+Chicago,Postmates,Chinese,17.01,5.47,2.35,24.83,54,4.0,2025-07-01
+Chicago,Postmates,Thai,18.84,2.55,2.5,23.89,45,4.8,2025-07-01
+Chicago,Postmates,Indian,17.8,6.46,1.5,25.76,45,3.6,2025-07-01
+Chicago,Postmates,Italian,25.08,6.23,2.64,33.95,43,4.8,2025-07-01
+Chicago,Postmates,Sandwich,15.24,4.96,2.28,22.48,25,4.3,2025-07-01
+Chicago,Postmates,Salad,14.18,6.15,1.2,21.53,36,4.7,2025-07-01
+Houston,DoorDash,Burger,12.77,3.39,1.16,17.32,45,3.9,2025-07-01
+Houston,DoorDash,Pizza,15.11,3.65,1.74,20.5,42,3.8,2025-07-01
+Houston,DoorDash,Mexican,14.81,2.88,1.86,19.55,41,3.9,2025-07-01
+Houston,DoorDash,Chinese,13.0,4.18,1.39,18.57,37,4.7,2025-07-01
+Houston,DoorDash,Thai,16.54,5.5,2.52,24.56,39,4.7,2025-07-01
+Houston,DoorDash,Indian,14.69,5.22,1.99,21.9,29,3.5,2025-07-01
+Houston,DoorDash,Italian,17.85,4.97,3.19,26.01,41,4.0,2025-07-01
+Houston,DoorDash,Sandwich,13.02,3.38,2.12,18.52,41,4.6,2025-07-01
+Houston,DoorDash,Salad,11.16,3.47,1.2,15.83,40,3.6,2025-07-01
+Houston,Uber Eats,Burger,15.41,3.92,2.39,21.72,27,4.2,2025-07-01
+Houston,Uber Eats,Pizza,17.93,5.48,2.96,26.37,41,3.8,2025-07-01
+Houston,Uber Eats,Mexican,14.64,2.85,1.57,19.06,28,3.8,2025-07-01
+Houston,Uber Eats,Chinese,14.24,4.24,1.65,20.13,32,3.5,2025-07-01
+Houston,Uber Eats,Thai,15.77,3.7,2.57,22.04,42,4.6,2025-07-01
+Houston,Uber Eats,Indian,17.04,4.02,2.86,23.92,49,4.3,2025-07-01
+Houston,Uber Eats,Italian,18.84,3.49,2.99,25.32,38,4.4,2025-07-01
+Houston,Uber Eats,Sandwich,11.74,2.41,0.96,15.11,30,4.3,2025-07-01
+Houston,Uber Eats,Salad,11.95,4.0,1.06,17.01,26,4.0,2025-07-01
+Houston,Grubhub,Burger,13.95,4.87,1.67,20.49,47,4.2,2025-07-01
+Houston,Grubhub,Pizza,16.66,4.92,2.1,23.68,41,4.1,2025-07-01
+Houston,Grubhub,Mexican,14.02,3.64,2.5,20.16,45,4.0,2025-07-01
+Houston,Grubhub,Chinese,12.0,4.09,1.37,17.46,39,3.7,2025-07-01
+Houston,Grubhub,Thai,13.55,2.47,1.27,17.29,32,3.7,2025-07-01
+Houston,Grubhub,Indian,16.65,3.45,2.79,22.89,51,4.4,2025-07-01
+Houston,Grubhub,Italian,16.45,2.62,1.38,20.45,29,3.9,2025-07-01
+Houston,Grubhub,Sandwich,11.48,2.01,1.55,15.04,29,4.1,2025-07-01
+Houston,Grubhub,Salad,10.14,3.27,1.32,14.73,37,3.9,2025-07-01
+Houston,Postmates,Burger,13.75,3.72,2.05,19.52,48,4.6,2025-07-01
+Houston,Postmates,Pizza,19.24,2.12,2.07,23.43,25,3.6,2025-07-01
+Houston,Postmates,Mexican,16.75,5.64,2.24,24.63,48,4.1,2025-07-01
+Houston,Postmates,Chinese,14.59,3.29,1.84,19.72,37,3.6,2025-07-01
+Houston,Postmates,Thai,14.95,2.4,2.22,19.57,47,4.2,2025-07-01
+Houston,Postmates,Indian,17.59,2.3,2.19,22.08,27,4.0,2025-07-01
+Houston,Postmates,Italian,17.74,4.69,1.74,24.17,31,3.9,2025-07-01
+Houston,Postmates,Sandwich,12.17,3.13,1.12,16.42,41,3.9,2025-07-01
+Houston,Postmates,Salad,11.92,3.24,1.73,16.89,42,3.6,2025-07-01
+Phoenix,DoorDash,Burger,14.44,4.12,2.23,20.79,41,4.2,2025-07-01
+Phoenix,DoorDash,Pizza,15.88,3.17,2.7,21.75,26,3.8,2025-07-01
+Phoenix,DoorDash,Mexican,15.33,3.15,2.66,21.14,45,3.6,2025-07-01
+Phoenix,DoorDash,Chinese,12.17,2.83,1.17,16.17,35,3.6,2025-07-01
+Phoenix,DoorDash,Thai,16.48,2.1,2.71,21.29,27,4.2,2025-07-01
+Phoenix,DoorDash,Indian,16.0,5.62,1.46,23.08,26,4.2,2025-07-01
+Phoenix,DoorDash,Italian,20.28,1.91,3.6,25.79,54,3.7,2025-07-01
+Phoenix,DoorDash,Sandwich,12.77,5.42,1.73,19.92,32,4.1,2025-07-01
+Phoenix,DoorDash,Salad,12.18,2.67,2.15,17.0,28,4.1,2025-07-01
+Phoenix,Uber Eats,Burger,14.75,2.81,1.35,18.91,50,4.5,2025-07-01
+Phoenix,Uber Eats,Pizza,15.13,3.81,2.62,21.56,37,4.2,2025-07-01
+Phoenix,Uber Eats,Mexican,14.05,3.17,1.31,18.53,47,4.2,2025-07-01
+Phoenix,Uber Eats,Chinese,12.68,4.49,1.13,18.3,29,3.5,2025-07-01
+Phoenix,Uber Eats,Thai,14.3,3.69,2.01,20.0,27,4.0,2025-07-01
+Phoenix,Uber Eats,Indian,18.59,5.05,3.28,26.92,38,4.7,2025-07-01
+Phoenix,Uber Eats,Italian,21.2,2.67,2.5,26.37,25,4.5,2025-07-01
+Phoenix,Uber Eats,Sandwich,12.85,5.09,1.21,19.15,33,4.5,2025-07-01
+Phoenix,Uber Eats,Salad,12.41,5.03,1.22,18.66,43,4.4,2025-07-01
+Phoenix,Grubhub,Burger,13.98,3.25,2.34,19.57,49,4.4,2025-07-01
+Phoenix,Grubhub,Pizza,15.71,4.6,2.67,22.98,53,3.9,2025-07-01
+Phoenix,Grubhub,Mexican,15.8,3.8,1.63,21.23,25,4.0,2025-07-01
+Phoenix,Grubhub,Chinese,13.01,2.14,1.34,16.49,31,3.7,2025-07-01
+Phoenix,Grubhub,Thai,16.5,4.28,1.87,22.65,44,4.5,2025-07-01
+Phoenix,Grubhub,Indian,16.36,3.92,2.77,23.05,28,4.8,2025-07-01
+Phoenix,Grubhub,Italian,18.98,4.58,3.0,26.56,25,3.5,2025-07-01
+Phoenix,Grubhub,Sandwich,12.12,4.79,2.03,18.94,25,3.6,2025-07-01
+Phoenix,Grubhub,Salad,11.02,3.33,1.39,15.74,44,4.0,2025-07-01
+Phoenix,Postmates,Burger,16.38,2.46,1.69,20.53,36,4.5,2025-07-01
+Phoenix,Postmates,Pizza,15.37,4.16,2.1,21.63,50,3.8,2025-07-01
+Phoenix,Postmates,Mexican,15.74,2.58,2.69,21.01,30,3.8,2025-07-01
+Phoenix,Postmates,Chinese,13.91,2.98,1.97,18.86,50,4.3,2025-07-01
+Phoenix,Postmates,Thai,16.38,4.21,1.34,21.93,52,4.3,2025-07-01
+Phoenix,Postmates,Indian,15.76,5.38,2.51,23.65,29,4.4,2025-07-01
+Phoenix,Postmates,Italian,17.97,4.08,2.53,24.58,46,3.6,2025-07-01
+Phoenix,Postmates,Sandwich,11.82,5.08,2.02,18.92,25,3.6,2025-07-01
+Phoenix,Postmates,Salad,13.42,5.08,1.24,19.74,49,3.9,2025-07-01
+Philadelphia,DoorDash,Burger,15.09,3.04,2.12,20.25,39,3.6,2025-07-01
+Philadelphia,DoorDash,Pizza,17.35,5.46,1.4,24.21,33,3.6,2025-07-01
+Philadelphia,DoorDash,Mexican,16.6,5.72,2.86,25.18,31,4.0,2025-07-01
+Philadelphia,DoorDash,Chinese,15.54,3.99,1.59,21.12,36,4.7,2025-07-01
+Philadelphia,DoorDash,Thai,15.91,4.52,1.54,21.97,45,4.7,2025-07-01
+Philadelphia,DoorDash,Indian,17.47,4.53,2.5,24.5,52,3.8,2025-07-01
+Philadelphia,DoorDash,Italian,20.42,6.19,2.57,29.18,44,4.0,2025-07-01
+Philadelphia,DoorDash,Sandwich,12.19,6.28,1.59,20.06,25,3.9,2025-07-01
+Philadelphia,DoorDash,Salad,12.12,3.88,1.94,17.94,54,3.8,2025-07-01
+Philadelphia,Uber Eats,Burger,15.05,2.24,1.91,19.2,32,4.3,2025-07-01
+Philadelphia,Uber Eats,Pizza,17.66,5.09,2.34,25.09,46,4.1,2025-07-01
+Philadelphia,Uber Eats,Mexican,17.01,4.44,1.62,23.07,25,3.9,2025-07-01
+Philadelphia,Uber Eats,Chinese,13.55,5.25,1.45,20.25,43,4.3,2025-07-01
+Philadelphia,Uber Eats,Thai,17.05,2.2,1.63,20.88,42,4.6,2025-07-01
+Philadelphia,Uber Eats,Indian,18.18,4.41,1.92,24.51,47,4.4,2025-07-01
+Philadelphia,Uber Eats,Italian,18.47,2.53,2.96,23.96,27,4.7,2025-07-01
+Philadelphia,Uber Eats,Sandwich,14.14,5.12,2.27,21.53,48,4.4,2025-07-01
+Philadelphia,Uber Eats,Salad,13.9,5.58,1.66,21.14,29,3.7,2025-07-01
+Philadelphia,Grubhub,Burger,15.02,3.45,1.33,19.8,34,3.6,2025-07-01
+Philadelphia,Grubhub,Pizza,16.31,2.2,1.6,20.11,28,4.3,2025-07-01
+Philadelphia,Grubhub,Mexican,17.29,5.91,2.46,25.66,35,3.8,2025-07-01
+Philadelphia,Grubhub,Chinese,13.85,4.57,1.48,19.9,29,3.9,2025-07-01
+Philadelphia,Grubhub,Thai,17.57,3.61,2.92,24.1,27,4.7,2025-07-01
+Philadelphia,Grubhub,Indian,18.69,2.68,3.12,24.49,48,4.8,2025-07-01
+Philadelphia,Grubhub,Italian,19.62,2.85,2.52,24.99,41,3.8,2025-07-01
+Philadelphia,Grubhub,Sandwich,13.31,4.75,1.41,19.47,46,4.3,2025-07-01
+Philadelphia,Grubhub,Salad,11.84,2.65,2.01,16.5,26,3.9,2025-07-01
+Philadelphia,Postmates,Burger,14.89,5.93,1.37,22.19,28,4.1,2025-07-01
+Philadelphia,Postmates,Pizza,17.25,3.79,2.24,23.28,36,3.8,2025-07-01
+Philadelphia,Postmates,Mexican,15.92,2.66,2.71,21.29,30,4.5,2025-07-01
+Philadelphia,Postmates,Chinese,14.72,4.75,1.91,21.38,34,4.7,2025-07-01
+Philadelphia,Postmates,Thai,17.72,3.7,2.34,23.76,26,3.7,2025-07-01
+Philadelphia,Postmates,Indian,20.41,2.44,2.86,25.71,50,3.6,2025-07-01
+Philadelphia,Postmates,Italian,23.48,3.93,4.03,31.44,51,3.9,2025-07-01
+Philadelphia,Postmates,Sandwich,14.7,4.09,2.15,20.94,46,3.7,2025-07-01
+Philadelphia,Postmates,Salad,13.21,3.22,1.77,18.2,43,4.3,2025-07-01
+San Antonio,DoorDash,Burger,11.41,3.38,1.59,16.38,26,4.3,2025-07-01
+San Antonio,DoorDash,Pizza,14.55,2.86,1.68,19.09,25,4.1,2025-07-01
+San Antonio,DoorDash,Mexican,14.35,3.17,1.5,19.02,27,3.6,2025-07-01
+San Antonio,DoorDash,Chinese,10.45,4.98,0.84,16.27,36,4.0,2025-07-01
+San Antonio,DoorDash,Thai,12.36,4.81,1.16,18.33,34,4.4,2025-07-01
+San Antonio,DoorDash,Indian,14.71,1.99,2.59,19.29,43,4.5,2025-07-01
+San Antonio,DoorDash,Italian,17.7,3.93,2.64,24.27,30,4.8,2025-07-01
+San Antonio,DoorDash,Sandwich,12.06,3.89,1.8,17.75,33,4.7,2025-07-01
+San Antonio,DoorDash,Salad,8.93,4.09,1.54,14.56,47,4.2,2025-07-01
+San Antonio,Uber Eats,Burger,13.09,2.76,1.2,17.05,31,3.9,2025-07-01
+San Antonio,Uber Eats,Pizza,16.61,4.99,2.9,24.5,42,4.5,2025-07-01
+San Antonio,Uber Eats,Mexican,12.58,3.24,1.66,17.48,31,3.5,2025-07-01
+San Antonio,Uber Eats,Chinese,12.52,2.47,1.15,16.14,26,4.7,2025-07-01
+San Antonio,Uber Eats,Thai,14.22,3.19,1.71,19.12,31,3.9,2025-07-01
+San Antonio,Uber Eats,Indian,15.2,4.38,1.7,21.28,42,4.2,2025-07-01
+San Antonio,Uber Eats,Italian,16.63,4.67,2.02,23.32,27,4.6,2025-07-01
+San Antonio,Uber Eats,Sandwich,9.97,4.67,1.32,15.96,27,3.6,2025-07-01
+San Antonio,Uber Eats,Salad,9.11,1.87,0.81,11.79,54,4.1,2025-07-01
+San Antonio,Grubhub,Burger,12.83,4.66,2.29,19.78,34,3.6,2025-07-01
+San Antonio,Grubhub,Pizza,13.65,3.47,2.09,19.21,41,3.6,2025-07-01
+San Antonio,Grubhub,Mexican,12.86,2.67,1.41,16.94,54,4.3,2025-07-01
+San Antonio,Grubhub,Chinese,10.93,4.79,0.92,16.64,39,4.0,2025-07-01
+San Antonio,Grubhub,Thai,13.91,2.43,2.43,18.77,53,3.8,2025-07-01
+San Antonio,Grubhub,Indian,14.53,5.03,2.45,22.01,48,4.1,2025-07-01
+San Antonio,Grubhub,Italian,16.44,2.26,2.94,21.64,51,4.0,2025-07-01
+San Antonio,Grubhub,Sandwich,11.54,2.48,1.88,15.9,38,3.8,2025-07-01
+San Antonio,Grubhub,Salad,9.0,2.44,0.89,12.33,27,4.6,2025-07-01
+San Antonio,Postmates,Burger,14.66,3.83,1.49,19.98,33,4.7,2025-07-01
+San Antonio,Postmates,Pizza,17.5,2.28,2.09,21.87,42,4.1,2025-07-01
+San Antonio,Postmates,Mexican,16.41,4.74,2.07,23.22,37,3.8,2025-07-01
+San Antonio,Postmates,Chinese,12.8,3.71,1.77,18.28,26,4.1,2025-07-01
+San Antonio,Postmates,Thai,14.25,2.62,1.82,18.69,27,4.7,2025-07-01
+San Antonio,Postmates,Indian,16.99,4.44,2.47,23.9,29,4.5,2025-07-01
+San Antonio,Postmates,Italian,16.63,2.55,1.34,20.52,51,4.4,2025-07-01
+San Antonio,Postmates,Sandwich,11.7,1.97,1.19,14.86,37,4.7,2025-07-01
+San Antonio,Postmates,Salad,12.02,1.9,2.02,15.94,54,4.3,2025-07-01
+San Diego,DoorDash,Burger,19.19,3.99,2.84,26.02,51,4.6,2025-07-01
+San Diego,DoorDash,Pizza,21.48,4.81,3.58,29.87,52,4.6,2025-07-01
+San Diego,DoorDash,Mexican,20.76,5.69,3.4,29.85,49,4.7,2025-07-01
+San Diego,DoorDash,Chinese,14.92,5.65,1.48,22.05,29,4.6,2025-07-01
+San Diego,DoorDash,Thai,20.78,2.49,3.38,26.65,34,4.6,2025-07-01
+San Diego,DoorDash,Indian,18.97,6.64,1.52,27.13,26,4.6,2025-07-01
+San Diego,DoorDash,Italian,22.9,2.38,2.49,27.77,38,3.9,2025-07-01
+San Diego,DoorDash,Sandwich,15.46,2.89,1.82,20.17,48,4.6,2025-07-01
+San Diego,DoorDash,Salad,12.7,3.69,1.04,17.43,33,4.8,2025-07-01
+San Diego,Uber Eats,Burger,17.58,5.33,3.04,25.95,53,4.5,2025-07-01
+San Diego,Uber Eats,Pizza,19.24,5.99,3.36,28.59,41,4.5,2025-07-01
+San Diego,Uber Eats,Mexican,20.59,4.58,1.77,26.94,48,3.6,2025-07-01
+San Diego,Uber Eats,Chinese,18.52,6.94,3.28,28.74,28,4.3,2025-07-01
+San Diego,Uber Eats,Thai,20.05,4.16,1.74,25.95,25,3.9,2025-07-01
+San Diego,Uber Eats,Indian,20.84,5.98,3.09,29.91,50,3.7,2025-07-01
+San Diego,Uber Eats,Italian,23.33,6.81,2.1,32.24,33,3.7,2025-07-01
+San Diego,Uber Eats,Sandwich,16.8,5.62,1.71,24.13,26,4.5,2025-07-01
+San Diego,Uber Eats,Salad,13.42,2.97,2.24,18.63,54,3.7,2025-07-01
+San Diego,Grubhub,Burger,16.99,6.8,2.07,25.86,51,4.8,2025-07-01
+San Diego,Grubhub,Pizza,20.99,4.44,2.33,27.76,50,4.7,2025-07-01
+San Diego,Grubhub,Mexican,17.29,3.35,1.44,22.08,49,4.4,2025-07-01
+San Diego,Grubhub,Chinese,16.28,4.57,2.19,23.04,52,3.7,2025-07-01
+San Diego,Grubhub,Thai,20.17,6.01,3.17,29.35,38,4.2,2025-07-01
+San Diego,Grubhub,Indian,17.42,6.11,1.91,25.44,48,4.7,2025-07-01
+San Diego,Grubhub,Italian,22.84,6.11,2.93,31.88,38,4.3,2025-07-01
+San Diego,Grubhub,Sandwich,15.19,3.52,2.06,20.77,40,4.1,2025-07-01
+San Diego,Grubhub,Salad,12.13,5.1,1.3,18.53,48,4.1,2025-07-01
+San Diego,Postmates,Burger,21.21,3.05,2.68,26.94,54,4.0,2025-07-01
+San Diego,Postmates,Pizza,21.57,5.18,2.35,29.1,37,4.5,2025-07-01
+San Diego,Postmates,Mexican,22.56,6.63,3.44,32.63,43,3.6,2025-07-01
+San Diego,Postmates,Chinese,16.5,7.01,1.56,25.07,40,4.1,2025-07-01
+San Diego,Postmates,Thai,18.88,3.98,2.98,25.84,42,3.9,2025-07-01
+San Diego,Postmates,Indian,21.77,2.76,2.5,27.03,25,4.6,2025-07-01
+San Diego,Postmates,Italian,23.54,3.87,4.18,31.59,50,4.4,2025-07-01
+San Diego,Postmates,Sandwich,17.45,3.29,1.69,22.43,41,4.7,2025-07-01
+San Diego,Postmates,Salad,13.54,6.58,1.89,22.01,33,3.6,2025-07-01
+Dallas,DoorDash,Burger,15.22,4.83,2.54,22.59,42,4.3,2025-07-01
+Dallas,DoorDash,Pizza,18.41,4.44,2.36,25.21,35,4.7,2025-07-01
+Dallas,DoorDash,Mexican,16.33,5.26,2.05,23.64,27,3.6,2025-07-01
+Dallas,DoorDash,Chinese,12.84,3.74,1.96,18.54,36,3.8,2025-07-01
+Dallas,DoorDash,Thai,14.8,5.48,1.51,21.79,47,4.1,2025-07-01
+Dallas,DoorDash,Indian,18.25,5.48,2.25,25.98,43,3.7,2025-07-01
+Dallas,DoorDash,Italian,17.11,4.6,1.94,23.65,48,4.8,2025-07-01
+Dallas,DoorDash,Sandwich,13.39,2.79,1.98,18.16,53,4.0,2025-07-01
+Dallas,DoorDash,Salad,10.98,5.35,1.07,17.4,45,4.4,2025-07-01
+Dallas,Uber Eats,Burger,16.42,3.69,1.88,21.99,36,4.5,2025-07-01
+Dallas,Uber Eats,Pizza,17.73,4.16,2.33,24.22,33,4.1,2025-07-01
+Dallas,Uber Eats,Mexican,17.52,3.94,2.93,24.39,26,4.5,2025-07-01
+Dallas,Uber Eats,Chinese,14.94,5.96,1.62,22.52,53,3.8,2025-07-01
+Dallas,Uber Eats,Thai,17.1,4.52,2.62,24.24,27,4.5,2025-07-01
+Dallas,Uber Eats,Indian,17.3,4.4,2.48,24.18,38,4.8,2025-07-01
+Dallas,Uber Eats,Italian,18.38,5.41,2.38,26.17,54,3.6,2025-07-01
+Dallas,Uber Eats,Sandwich,12.98,4.36,1.79,19.13,44,4.3,2025-07-01
+Dallas,Uber Eats,Salad,11.18,3.55,1.98,16.71,26,4.6,2025-07-01
+Dallas,Grubhub,Burger,12.88,4.34,1.8,19.02,28,4.8,2025-07-01
+Dallas,Grubhub,Pizza,16.54,2.93,1.44,20.91,38,3.9,2025-07-01
+Dallas,Grubhub,Mexican,15.49,4.67,1.46,21.62,29,3.8,2025-07-01
+Dallas,Grubhub,Chinese,13.98,4.82,1.35,20.15,44,4.0,2025-07-01
+Dallas,Grubhub,Thai,16.09,3.42,2.15,21.66,41,4.6,2025-07-01
+Dallas,Grubhub,Indian,17.98,4.33,3.0,25.31,36,4.2,2025-07-01
+Dallas,Grubhub,Italian,16.68,5.94,1.54,24.16,29,4.7,2025-07-01
+Dallas,Grubhub,Sandwich,11.14,2.48,1.39,15.01,45,3.6,2025-07-01
+Dallas,Grubhub,Salad,10.39,4.33,1.55,16.27,44,4.8,2025-07-01
+Dallas,Postmates,Burger,17.9,2.01,3.14,23.05,42,4.8,2025-07-01
+Dallas,Postmates,Pizza,18.73,3.01,2.48,24.22,47,4.4,2025-07-01
+Dallas,Postmates,Mexican,15.71,2.11,1.74,19.56,40,4.7,2025-07-01
+Dallas,Postmates,Chinese,15.77,2.64,1.56,19.97,47,4.4,2025-07-01
+Dallas,Postmates,Thai,16.98,5.46,1.66,24.1,26,4.4,2025-07-01
+Dallas,Postmates,Indian,20.51,3.49,1.68,25.68,42,4.3,2025-07-01
+Dallas,Postmates,Italian,22.52,4.27,1.87,28.66,32,4.5,2025-07-01
+Dallas,Postmates,Sandwich,15.18,4.39,2.64,22.21,38,4.0,2025-07-01
+Dallas,Postmates,Salad,13.09,2.42,1.91,17.42,42,4.3,2025-07-01
+San Jose,DoorDash,Burger,19.44,7.37,3.49,30.3,37,4.5,2025-07-01
+San Jose,DoorDash,Pizza,23.63,6.67,3.97,34.27,53,4.5,2025-07-01
+San Jose,DoorDash,Mexican,24.06,5.05,4.09,33.2,37,4.5,2025-07-01
+San Jose,DoorDash,Chinese,18.59,7.1,1.71,27.4,46,4.3,2025-07-01
+San Jose,DoorDash,Thai,20.88,6.09,2.94,29.91,39,4.4,2025-07-01
+San Jose,DoorDash,Indian,22.62,5.11,2.35,30.08,41,4.1,2025-07-01
+San Jose,DoorDash,Italian,23.06,5.86,2.23,31.15,38,4.3,2025-07-01
+San Jose,DoorDash,Sandwich,17.28,4.74,2.87,24.89,40,4.6,2025-07-01
+San Jose,DoorDash,Salad,17.6,7.08,1.6,26.28,29,4.0,2025-07-01
+San Jose,Uber Eats,Burger,21.33,5.57,3.0,29.9,40,4.2,2025-07-01
+San Jose,Uber Eats,Pizza,25.35,6.55,3.35,35.25,45,3.8,2025-07-01
+San Jose,Uber Eats,Mexican,19.72,6.18,3.35,29.25,49,4.4,2025-07-01
+San Jose,Uber Eats,Chinese,18.86,3.75,2.41,25.02,43,3.6,2025-07-01
+San Jose,Uber Eats,Thai,22.34,4.07,2.42,28.83,51,4.7,2025-07-01
+San Jose,Uber Eats,Indian,24.1,5.82,2.14,32.06,54,4.4,2025-07-01
+San Jose,Uber Eats,Italian,25.41,4.92,2.34,32.67,35,3.7,2025-07-01
+San Jose,Uber Eats,Sandwich,19.51,7.01,1.92,28.44,48,4.5,2025-07-01
+San Jose,Uber Eats,Salad,15.18,7.64,1.86,24.68,46,4.5,2025-07-01
+San Jose,Grubhub,Burger,20.0,2.92,2.87,25.79,51,3.5,2025-07-01
+San Jose,Grubhub,Pizza,23.34,5.47,3.25,32.06,50,3.8,2025-07-01
+San Jose,Grubhub,Mexican,21.74,4.91,3.57,30.22,32,4.5,2025-07-01
+San Jose,Grubhub,Chinese,18.6,4.07,2.05,24.72,48,4.6,2025-07-01
+San Jose,Grubhub,Thai,20.78,6.29,1.86,28.93,28,3.7,2025-07-01
+San Jose,Grubhub,Indian,22.16,3.51,2.29,27.96,36,4.6,2025-07-01
+San Jose,Grubhub,Italian,23.65,3.2,1.95,28.8,39,3.8,2025-07-01
+San Jose,Grubhub,Sandwich,15.72,6.13,1.66,23.51,37,4.3,2025-07-01
+San Jose,Grubhub,Salad,15.51,8.02,1.45,24.98,45,4.4,2025-07-01
+San Jose,Postmates,Burger,21.39,5.09,3.26,29.74,35,4.8,2025-07-01
+San Jose,Postmates,Pizza,22.55,3.25,3.44,29.24,34,4.7,2025-07-01
+San Jose,Postmates,Mexican,24.79,4.12,3.58,32.49,28,3.7,2025-07-01
+San Jose,Postmates,Chinese,19.28,3.91,2.23,25.42,28,4.1,2025-07-01
+San Jose,Postmates,Thai,25.13,6.3,2.19,33.62,45,3.9,2025-07-01
+San Jose,Postmates,Indian,25.36,6.36,2.61,34.33,50,3.9,2025-07-01
+San Jose,Postmates,Italian,29.05,8.05,4.25,41.35,41,4.8,2025-07-01
+San Jose,Postmates,Sandwich,18.35,4.49,2.53,25.37,50,4.7,2025-07-01
+San Jose,Postmates,Salad,15.7,6.41,1.57,23.68,40,4.0,2025-07-01
+Austin,DoorDash,Burger,15.52,5.54,1.24,22.3,40,4.4,2025-07-01
+Austin,DoorDash,Pizza,19.38,5.98,2.01,27.37,52,4.8,2025-07-01
+Austin,DoorDash,Mexican,14.97,5.19,2.35,22.51,25,4.6,2025-07-01
+Austin,DoorDash,Chinese,14.77,4.71,1.31,20.79,31,4.6,2025-07-01
+Austin,DoorDash,Thai,17.4,4.22,1.67,23.29,53,3.5,2025-07-01
+Austin,DoorDash,Indian,17.21,3.19,2.0,22.4,45,4.0,2025-07-01
+Austin,DoorDash,Italian,19.05,4.23,3.1,26.38,54,4.1,2025-07-01
+Austin,DoorDash,Sandwich,13.89,4.26,2.39,20.54,35,4.2,2025-07-01
+Austin,DoorDash,Salad,12.63,3.73,1.64,18.0,41,3.7,2025-07-01
+Austin,Uber Eats,Burger,17.53,3.69,2.94,24.16,54,4.4,2025-07-01
+Austin,Uber Eats,Pizza,16.97,2.98,2.75,22.7,39,4.0,2025-07-01
+Austin,Uber Eats,Mexican,16.05,5.01,1.84,22.9,44,4.2,2025-07-01
+Austin,Uber Eats,Chinese,16.71,4.51,2.14,23.36,25,4.7,2025-07-01
+Austin,Uber Eats,Thai,17.38,4.64,2.72,24.74,53,3.9,2025-07-01
+Austin,Uber Eats,Indian,20.65,5.56,3.03,29.24,26,3.6,2025-07-01
+Austin,Uber Eats,Italian,18.5,2.66,3.26,24.42,52,4.5,2025-07-01
+Austin,Uber Eats,Sandwich,12.66,4.59,2.2,19.45,44,4.1,2025-07-01
+Austin,Uber Eats,Salad,11.56,4.78,1.17,17.51,54,4.3,2025-07-01
+Austin,Grubhub,Burger,14.86,3.71,2.03,20.6,26,4.1,2025-07-01
+Austin,Grubhub,Pizza,15.67,6.27,1.34,23.28,48,3.9,2025-07-01
+Austin,Grubhub,Mexican,16.19,2.81,1.42,20.42,52,3.9,2025-07-01
+Austin,Grubhub,Chinese,12.88,5.0,1.11,18.99,28,4.3,2025-07-01
+Austin,Grubhub,Thai,15.38,3.07,1.57,20.02,53,4.3,2025-07-01
+Austin,Grubhub,Indian,17.68,3.88,1.65,23.21,44,4.0,2025-07-01
+Austin,Grubhub,Italian,20.5,3.58,2.72,26.8,46,4.6,2025-07-01
+Austin,Grubhub,Sandwich,13.92,5.32,1.13,20.37,26,3.7,2025-07-01
+Austin,Grubhub,Salad,11.84,5.41,1.64,18.89,47,3.7,2025-07-01
+Austin,Postmates,Burger,17.02,2.99,1.38,21.39,42,4.3,2025-07-01
+Austin,Postmates,Pizza,17.87,2.36,1.51,21.74,41,3.6,2025-07-01
+Austin,Postmates,Mexican,18.29,4.0,3.01,25.3,47,3.7,2025-07-01
+Austin,Postmates,Chinese,14.25,5.72,1.49,21.46,42,4.1,2025-07-01
+Austin,Postmates,Thai,17.53,3.75,2.21,23.49,45,4.7,2025-07-01
+Austin,Postmates,Indian,17.56,2.52,2.56,22.64,33,4.4,2025-07-01
+Austin,Postmates,Italian,21.37,3.16,3.51,28.04,50,3.8,2025-07-01
+Austin,Postmates,Sandwich,15.46,5.56,2.0,23.02,32,4.7,2025-07-01
+Austin,Postmates,Salad,13.7,4.67,1.19,19.56,48,4.6,2025-07-01
+Jacksonville,DoorDash,Burger,11.58,5.05,1.44,18.07,32,3.6,2025-07-01
+Jacksonville,DoorDash,Pizza,13.15,4.13,1.15,18.43,48,3.6,2025-07-01
+Jacksonville,DoorDash,Mexican,12.17,3.42,1.45,17.04,38,4.8,2025-07-01
+Jacksonville,DoorDash,Chinese,13.26,4.9,2.1,20.26,43,3.7,2025-07-01
+Jacksonville,DoorDash,Thai,12.38,3.94,1.94,18.26,34,3.5,2025-07-01
+Jacksonville,DoorDash,Indian,13.15,4.98,1.44,19.57,32,4.3,2025-07-01
+Jacksonville,DoorDash,Italian,15.99,2.39,1.47,19.85,54,3.8,2025-07-01
+Jacksonville,DoorDash,Sandwich,9.82,4.95,1.26,16.03,42,3.9,2025-07-01
+Jacksonville,DoorDash,Salad,9.14,3.3,0.84,13.28,37,4.3,2025-07-01
+Jacksonville,Uber Eats,Burger,13.97,4.45,2.03,20.45,35,3.6,2025-07-01
+Jacksonville,Uber Eats,Pizza,13.63,3.73,1.22,18.58,32,4.1,2025-07-01
+Jacksonville,Uber Eats,Mexican,13.91,3.78,2.42,20.11,54,4.7,2025-07-01
+Jacksonville,Uber Eats,Chinese,12.76,3.38,1.04,17.18,45,3.9,2025-07-01
+Jacksonville,Uber Eats,Thai,15.2,4.62,2.5,22.32,33,4.2,2025-07-01
+Jacksonville,Uber Eats,Indian,15.55,2.44,2.77,20.76,38,4.4,2025-07-01
+Jacksonville,Uber Eats,Italian,18.08,3.92,1.77,23.77,46,4.5,2025-07-01
+Jacksonville,Uber Eats,Sandwich,10.66,3.53,1.63,15.82,26,3.7,2025-07-01
+Jacksonville,Uber Eats,Salad,10.92,4.47,1.11,16.5,43,3.7,2025-07-01
+Jacksonville,Grubhub,Burger,11.96,3.1,1.86,16.92,25,4.2,2025-07-01
+Jacksonville,Grubhub,Pizza,13.52,3.61,2.01,19.14,31,4.3,2025-07-01
+Jacksonville,Grubhub,Mexican,14.56,3.17,1.4,19.13,50,3.5,2025-07-01
+Jacksonville,Grubhub,Chinese,10.84,4.16,1.94,16.94,32,3.8,2025-07-01
+Jacksonville,Grubhub,Thai,14.57,3.93,1.62,20.12,45,4.5,2025-07-01
+Jacksonville,Grubhub,Indian,14.62,2.33,1.69,18.64,37,4.2,2025-07-01
+Jacksonville,Grubhub,Italian,16.09,4.57,2.64,23.3,36,4.5,2025-07-01
+Jacksonville,Grubhub,Sandwich,9.89,4.95,1.16,16.0,35,4.5,2025-07-01
+Jacksonville,Grubhub,Salad,10.59,3.29,1.38,15.26,50,4.0,2025-07-01
+Jacksonville,Postmates,Burger,13.49,4.15,2.27,19.91,27,3.7,2025-07-01
+Jacksonville,Postmates,Pizza,16.23,1.7,1.59,19.52,34,4.3,2025-07-01
+Jacksonville,Postmates,Mexican,14.12,4.39,1.26,19.77,47,4.6,2025-07-01
+Jacksonville,Postmates,Chinese,12.72,4.15,1.15,18.02,50,4.2,2025-07-01
+Jacksonville,Postmates,Thai,14.85,3.74,2.19,20.78,42,4.3,2025-07-01
+Jacksonville,Postmates,Indian,13.8,2.79,1.98,18.57,43,3.6,2025-07-01
+Jacksonville,Postmates,Italian,16.85,4.36,2.54,23.75,28,4.2,2025-07-01
+Jacksonville,Postmates,Sandwich,11.54,2.19,1.3,15.03,47,3.8,2025-07-01
+Jacksonville,Postmates,Salad,10.4,1.9,1.67,13.97,39,4.8,2025-07-01
+Fort Worth,DoorDash,Burger,14.66,4.01,1.79,20.46,28,4.1,2025-07-01
+Fort Worth,DoorDash,Pizza,13.96,4.17,2.5,20.63,52,4.0,2025-07-01
+Fort Worth,DoorDash,Mexican,14.46,3.82,1.42,19.7,53,4.8,2025-07-01
+Fort Worth,DoorDash,Chinese,11.31,4.22,1.57,17.1,46,3.9,2025-07-01
+Fort Worth,DoorDash,Thai,14.27,2.8,2.48,19.55,34,4.6,2025-07-01
+Fort Worth,DoorDash,Indian,14.14,3.08,1.78,19.0,44,4.5,2025-07-01
+Fort Worth,DoorDash,Italian,16.87,3.45,1.57,21.89,28,3.6,2025-07-01
+Fort Worth,DoorDash,Sandwich,12.48,4.95,1.97,19.4,28,4.5,2025-07-01
+Fort Worth,DoorDash,Salad,9.55,3.9,0.89,14.34,44,4.4,2025-07-01
+Fort Worth,Uber Eats,Burger,15.16,1.99,1.3,18.45,54,3.5,2025-07-01
+Fort Worth,Uber Eats,Pizza,14.73,2.72,2.34,19.79,34,3.9,2025-07-01
+Fort Worth,Uber Eats,Mexican,15.54,3.33,2.45,21.32,36,3.7,2025-07-01
+Fort Worth,Uber Eats,Chinese,13.75,1.91,1.95,17.61,35,3.7,2025-07-01
+Fort Worth,Uber Eats,Thai,14.73,3.2,1.69,19.62,39,3.5,2025-07-01
+Fort Worth,Uber Eats,Indian,16.21,5.14,2.2,23.55,31,4.0,2025-07-01
+Fort Worth,Uber Eats,Italian,18.94,4.52,2.7,26.16,29,4.8,2025-07-01
+Fort Worth,Uber Eats,Sandwich,11.0,4.05,1.1,16.15,48,3.9,2025-07-01
+Fort Worth,Uber Eats,Salad,10.22,5.08,1.81,17.11,53,3.6,2025-07-01
+Fort Worth,Grubhub,Burger,11.78,2.54,1.24,15.56,31,4.4,2025-07-01
+Fort Worth,Grubhub,Pizza,14.88,5.2,1.53,21.61,52,4.4,2025-07-01
+Fort Worth,Grubhub,Mexican,12.35,4.24,1.66,18.25,30,3.8,2025-07-01
+Fort Worth,Grubhub,Chinese,12.97,3.26,1.22,17.45,46,4.6,2025-07-01
+Fort Worth,Grubhub,Thai,14.37,3.38,1.74,19.49,53,4.5,2025-07-01
+Fort Worth,Grubhub,Indian,13.97,4.52,1.27,19.76,51,4.1,2025-07-01
+Fort Worth,Grubhub,Italian,14.75,4.52,1.48,20.75,31,4.6,2025-07-01
+Fort Worth,Grubhub,Sandwich,11.16,4.42,1.73,17.31,39,3.8,2025-07-01
+Fort Worth,Grubhub,Salad,11.05,4.85,1.85,17.75,51,4.7,2025-07-01
+Fort Worth,Postmates,Burger,14.35,4.39,1.95,20.69,26,3.6,2025-07-01
+Fort Worth,Postmates,Pizza,16.02,4.95,2.14,23.11,44,4.5,2025-07-01
+Fort Worth,Postmates,Mexican,14.68,3.34,1.76,19.78,35,4.5,2025-07-01
+Fort Worth,Postmates,Chinese,14.62,2.47,1.93,19.02,48,4.0,2025-07-01
+Fort Worth,Postmates,Thai,16.11,2.72,1.79,20.62,33,4.0,2025-07-01
+Fort Worth,Postmates,Indian,17.8,3.63,1.71,23.14,44,4.2,2025-07-01
+Fort Worth,Postmates,Italian,16.7,3.91,1.94,22.55,51,3.9,2025-07-01
+Fort Worth,Postmates,Sandwich,13.55,2.25,1.36,17.16,32,4.7,2025-07-01
+Fort Worth,Postmates,Salad,11.53,2.29,1.43,15.25,30,4.8,2025-07-01
+Columbus,DoorDash,Burger,14.41,2.17,2.22,18.8,47,4.8,2025-07-01
+Columbus,DoorDash,Pizza,14.85,5.22,2.18,22.25,37,3.9,2025-07-01
+Columbus,DoorDash,Mexican,15.93,5.2,2.32,23.45,51,4.4,2025-07-01
+Columbus,DoorDash,Chinese,11.09,1.85,1.8,14.74,50,3.6,2025-07-01
+Columbus,DoorDash,Thai,15.01,2.41,2.49,19.91,44,4.7,2025-07-01
+Columbus,DoorDash,Indian,13.71,4.42,2.45,20.58,26,4.6,2025-07-01
+Columbus,DoorDash,Italian,16.88,3.01,2.18,22.07,27,4.6,2025-07-01
+Columbus,DoorDash,Sandwich,11.44,2.61,1.04,15.09,50,3.6,2025-07-01
+Columbus,DoorDash,Salad,9.76,2.25,1.12,13.13,39,3.7,2025-07-01
+Columbus,Uber Eats,Burger,14.02,3.28,1.93,19.23,41,4.6,2025-07-01
+Columbus,Uber Eats,Pizza,15.48,5.2,2.22,22.9,44,4.5,2025-07-01
+Columbus,Uber Eats,Mexican,13.21,2.86,1.06,17.13,39,3.7,2025-07-01
+Columbus,Uber Eats,Chinese,13.76,2.55,2.25,18.56,47,3.6,2025-07-01
+Columbus,Uber Eats,Thai,14.04,4.8,1.43,20.27,39,3.8,2025-07-01
+Columbus,Uber Eats,Indian,13.81,2.82,2.01,18.64,38,4.7,2025-07-01
+Columbus,Uber Eats,Italian,16.39,4.59,1.41,22.39,39,3.8,2025-07-01
+Columbus,Uber Eats,Sandwich,12.85,4.11,1.75,18.71,51,4.0,2025-07-01
+Columbus,Uber Eats,Salad,10.4,2.55,1.23,14.18,54,4.0,2025-07-01
+Columbus,Grubhub,Burger,14.38,2.14,1.76,18.28,49,4.0,2025-07-01
+Columbus,Grubhub,Pizza,13.02,5.15,1.21,19.38,49,3.9,2025-07-01
+Columbus,Grubhub,Mexican,15.18,4.41,2.44,22.03,44,4.8,2025-07-01
+Columbus,Grubhub,Chinese,12.31,3.72,1.76,17.79,49,3.9,2025-07-01
+Columbus,Grubhub,Thai,15.06,2.15,2.26,19.47,53,3.6,2025-07-01
+Columbus,Grubhub,Indian,13.87,1.91,1.9,17.68,44,3.9,2025-07-01
+Columbus,Grubhub,Italian,16.96,2.8,1.87,21.63,54,4.3,2025-07-01
+Columbus,Grubhub,Sandwich,9.87,4.84,1.66,16.37,53,4.3,2025-07-01
+Columbus,Grubhub,Salad,11.09,2.4,0.97,14.46,53,4.6,2025-07-01
+Columbus,Postmates,Burger,13.4,3.26,1.43,18.09,38,4.6,2025-07-01
+Columbus,Postmates,Pizza,16.25,1.98,2.65,20.88,27,4.1,2025-07-01
+Columbus,Postmates,Mexican,16.03,3.6,1.33,20.96,27,4.6,2025-07-01
+Columbus,Postmates,Chinese,14.35,3.76,1.89,20.0,39,3.6,2025-07-01
+Columbus,Postmates,Thai,16.67,3.39,1.56,21.62,43,4.7,2025-07-01
+Columbus,Postmates,Indian,15.94,3.89,2.28,22.11,44,4.5,2025-07-01
+Columbus,Postmates,Italian,18.8,4.13,1.75,24.68,28,4.0,2025-07-01
+Columbus,Postmates,Sandwich,12.09,4.05,2.12,18.26,26,4.1,2025-07-01
+Columbus,Postmates,Salad,12.42,2.7,1.5,16.62,46,3.8,2025-07-01
+Charlotte,DoorDash,Burger,13.1,3.49,1.11,17.7,32,3.8,2025-07-01
+Charlotte,DoorDash,Pizza,15.38,3.41,1.96,20.75,27,3.8,2025-07-01
+Charlotte,DoorDash,Mexican,14.92,2.8,1.5,19.22,37,4.2,2025-07-01
+Charlotte,DoorDash,Chinese,13.68,1.97,2.23,17.88,44,3.6,2025-07-01
+Charlotte,DoorDash,Thai,13.96,4.68,1.92,20.56,54,4.0,2025-07-01
+Charlotte,DoorDash,Indian,13.78,2.79,2.23,18.8,41,4.3,2025-07-01
+Charlotte,DoorDash,Italian,15.79,3.03,2.06,20.88,33,3.5,2025-07-01
+Charlotte,DoorDash,Sandwich,12.12,1.95,1.52,15.59,38,3.7,2025-07-01
+Charlotte,DoorDash,Salad,10.37,4.42,1.74,16.53,53,4.4,2025-07-01
+Charlotte,Uber Eats,Burger,14.32,2.9,2.33,19.55,31,4.7,2025-07-01
+Charlotte,Uber Eats,Pizza,16.8,4.9,1.35,23.05,54,3.8,2025-07-01
+Charlotte,Uber Eats,Mexican,13.34,3.96,1.98,19.28,26,4.4,2025-07-01
+Charlotte,Uber Eats,Chinese,13.9,4.18,1.24,19.32,39,4.0,2025-07-01
+Charlotte,Uber Eats,Thai,15.86,2.05,1.4,19.31,39,4.5,2025-07-01
+Charlotte,Uber Eats,Indian,15.6,4.12,2.26,21.98,43,4.3,2025-07-01
+Charlotte,Uber Eats,Italian,15.79,4.08,2.71,22.58,49,3.7,2025-07-01
+Charlotte,Uber Eats,Sandwich,11.0,4.09,1.7,16.79,53,3.6,2025-07-01
+Charlotte,Uber Eats,Salad,11.05,2.3,0.9,14.25,54,4.2,2025-07-01
+Charlotte,Grubhub,Burger,13.01,2.09,1.56,16.66,29,3.7,2025-07-01
+Charlotte,Grubhub,Pizza,15.27,3.03,2.34,20.64,49,3.6,2025-07-01
+Charlotte,Grubhub,Mexican,13.73,4.86,1.65,20.24,37,3.9,2025-07-01
+Charlotte,Grubhub,Chinese,11.65,4.63,1.45,17.73,26,4.0,2025-07-01
+Charlotte,Grubhub,Thai,13.94,3.88,2.17,19.99,47,3.9,2025-07-01
+Charlotte,Grubhub,Indian,15.36,3.13,2.15,20.64,28,4.0,2025-07-01
+Charlotte,Grubhub,Italian,17.04,3.63,1.65,22.32,31,3.7,2025-07-01
+Charlotte,Grubhub,Sandwich,12.37,3.04,1.18,16.59,53,4.2,2025-07-01
+Charlotte,Grubhub,Salad,10.04,1.82,1.19,13.05,51,4.0,2025-07-01
+Charlotte,Postmates,Burger,13.8,4.23,1.94,19.97,26,4.6,2025-07-01
+Charlotte,Postmates,Pizza,16.85,3.81,1.53,22.19,41,3.7,2025-07-01
+Charlotte,Postmates,Mexican,15.44,1.89,2.02,19.35,35,3.7,2025-07-01
+Charlotte,Postmates,Chinese,12.12,2.54,2.09,16.75,51,3.7,2025-07-01
+Charlotte,Postmates,Thai,13.7,4.51,1.72,19.93,54,3.7,2025-07-01
+Charlotte,Postmates,Indian,17.88,3.12,2.1,23.1,27,4.7,2025-07-01
+Charlotte,Postmates,Italian,19.06,4.77,3.4,27.23,37,4.3,2025-07-01
+Charlotte,Postmates,Sandwich,11.34,1.9,2.01,15.25,46,4.2,2025-07-01
+Charlotte,Postmates,Salad,10.41,3.78,1.4,15.59,46,3.8,2025-07-01
+San Francisco,DoorDash,Burger,24.47,5.12,3.98,33.57,37,3.8,2025-07-01
+San Francisco,DoorDash,Pizza,23.04,5.04,2.47,30.55,36,4.6,2025-07-01
+San Francisco,DoorDash,Mexican,24.48,3.98,3.39,31.85,53,4.1,2025-07-01
+San Francisco,DoorDash,Chinese,21.63,5.92,2.6,30.15,41,4.5,2025-07-01
+San Francisco,DoorDash,Thai,23.04,4.94,3.67,31.65,43,3.8,2025-07-01
+San Francisco,DoorDash,Indian,25.17,3.22,3.21,31.6,28,4.7,2025-07-01
+San Francisco,DoorDash,Italian,26.45,6.54,3.7,36.69,46,4.2,2025-07-01
+San Francisco,DoorDash,Sandwich,21.12,3.77,3.36,28.25,52,3.6,2025-07-01
+San Francisco,DoorDash,Salad,18.54,5.79,1.55,25.88,30,3.7,2025-07-01
+San Francisco,Uber Eats,Burger,23.04,8.87,2.96,34.87,30,4.3,2025-07-01
+San Francisco,Uber Eats,Pizza,25.76,4.7,2.58,33.04,48,4.1,2025-07-01
+San Francisco,Uber Eats,Mexican,25.55,8.5,2.97,37.02,41,4.6,2025-07-01
+San Francisco,Uber Eats,Chinese,24.12,5.43,3.93,33.48,39,4.2,2025-07-01
+San Francisco,Uber Eats,Thai,27.68,4.19,2.52,34.39,44,3.5,2025-07-01
+San Francisco,Uber Eats,Indian,27.48,4.78,2.86,35.12,30,3.8,2025-07-01
+San Francisco,Uber Eats,Italian,26.47,8.81,2.7,37.98,47,3.5,2025-07-01
+San Francisco,Uber Eats,Sandwich,19.81,7.11,3.02,29.94,46,4.2,2025-07-01
+San Francisco,Uber Eats,Salad,18.86,6.85,3.05,28.76,33,3.9,2025-07-01
+San Francisco,Grubhub,Burger,20.41,8.73,1.65,30.79,43,3.8,2025-07-01
+San Francisco,Grubhub,Pizza,28.12,3.52,2.26,33.9,27,4.5,2025-07-01
+San Francisco,Grubhub,Mexican,25.44,7.43,2.4,35.27,32,4.7,2025-07-01
+San Francisco,Grubhub,Chinese,21.99,7.84,3.7,33.53,27,4.3,2025-07-01
+San Francisco,Grubhub,Thai,21.16,5.91,1.86,28.93,28,4.0,2025-07-01
+San Francisco,Grubhub,Indian,22.44,5.08,2.04,29.56,52,4.3,2025-07-01
+San Francisco,Grubhub,Italian,29.59,3.02,2.67,35.28,30,3.9,2025-07-01
+San Francisco,Grubhub,Sandwich,16.88,5.99,2.69,25.56,40,4.1,2025-07-01
+San Francisco,Grubhub,Salad,15.76,7.25,2.31,25.32,52,4.6,2025-07-01
+San Francisco,Postmates,Burger,23.53,4.74,2.24,30.51,47,4.7,2025-07-01
+San Francisco,Postmates,Pizza,26.35,5.84,2.7,34.89,33,3.8,2025-07-01
+San Francisco,Postmates,Mexican,22.89,4.27,2.78,29.94,49,3.7,2025-07-01
+San Francisco,Postmates,Chinese,24.51,6.0,3.06,33.57,34,4.6,2025-07-01
+San Francisco,Postmates,Thai,26.17,6.81,3.47,36.45,42,4.4,2025-07-01
+San Francisco,Postmates,Indian,29.72,7.81,4.02,41.55,28,3.7,2025-07-01
+San Francisco,Postmates,Italian,33.08,4.61,4.29,41.98,38,4.6,2025-07-01
+San Francisco,Postmates,Sandwich,22.3,7.32,2.39,32.01,41,3.9,2025-07-01
+San Francisco,Postmates,Salad,16.63,6.05,1.41,24.09,46,4.4,2025-07-01
+Indianapolis,DoorDash,Burger,11.44,4.55,0.92,16.91,29,4.7,2025-07-01
+Indianapolis,DoorDash,Pizza,13.15,4.86,2.14,20.15,35,3.9,2025-07-01
+Indianapolis,DoorDash,Mexican,14.87,2.76,2.36,19.99,39,4.7,2025-07-01
+Indianapolis,DoorDash,Chinese,11.67,2.97,2.03,16.67,43,3.6,2025-07-01
+Indianapolis,DoorDash,Thai,14.35,3.37,1.7,19.42,51,4.6,2025-07-01
+Indianapolis,DoorDash,Indian,15.26,2.16,1.61,19.03,35,4.4,2025-07-01
+Indianapolis,DoorDash,Italian,18.34,4.28,3.21,25.83,39,4.7,2025-07-01
+Indianapolis,DoorDash,Sandwich,10.36,3.31,1.49,15.16,29,3.6,2025-07-01
+Indianapolis,DoorDash,Salad,9.72,4.94,1.26,15.92,33,4.1,2025-07-01
+Indianapolis,Uber Eats,Burger,11.92,3.85,1.87,17.64,33,3.6,2025-07-01
+Indianapolis,Uber Eats,Pizza,16.04,3.11,2.6,21.75,26,3.8,2025-07-01
+Indianapolis,Uber Eats,Mexican,14.66,3.3,2.46,20.42,25,4.5,2025-07-01
+Indianapolis,Uber Eats,Chinese,12.99,1.81,1.55,16.35,32,4.3,2025-07-01
+Indianapolis,Uber Eats,Thai,14.94,2.76,2.16,19.86,45,4.4,2025-07-01
+Indianapolis,Uber Eats,Indian,14.94,3.66,1.32,19.92,35,4.0,2025-07-01
+Indianapolis,Uber Eats,Italian,15.11,2.07,1.99,19.17,36,3.6,2025-07-01
+Indianapolis,Uber Eats,Sandwich,11.81,2.51,2.02,16.34,26,3.5,2025-07-01
+Indianapolis,Uber Eats,Salad,9.4,3.1,1.22,13.72,39,3.9,2025-07-01
+Indianapolis,Grubhub,Burger,13.67,2.6,2.08,18.35,49,4.8,2025-07-01
+Indianapolis,Grubhub,Pizza,14.28,4.0,1.59,19.87,52,3.8,2025-07-01
+Indianapolis,Grubhub,Mexican,12.42,2.14,2.06,16.62,46,3.5,2025-07-01
+Indianapolis,Grubhub,Chinese,12.31,4.44,1.13,17.88,30,4.1,2025-07-01
+Indianapolis,Grubhub,Thai,12.78,2.85,1.97,17.6,31,4.0,2025-07-01
+Indianapolis,Grubhub,Indian,13.77,1.7,1.51,16.98,28,4.2,2025-07-01
+Indianapolis,Grubhub,Italian,17.48,3.99,2.35,23.82,32,4.5,2025-07-01
+Indianapolis,Grubhub,Sandwich,11.39,3.25,1.36,16.0,28,4.7,2025-07-01
+Indianapolis,Grubhub,Salad,10.28,4.88,1.44,16.6,37,4.5,2025-07-01
+Indianapolis,Postmates,Burger,13.57,1.89,2.39,17.85,33,3.8,2025-07-01
+Indianapolis,Postmates,Pizza,15.73,3.9,2.27,21.9,52,4.5,2025-07-01
+Indianapolis,Postmates,Mexican,13.58,4.16,1.93,19.67,49,4.3,2025-07-01
+Indianapolis,Postmates,Chinese,13.56,3.66,1.28,18.5,45,4.2,2025-07-01
+Indianapolis,Postmates,Thai,16.09,2.25,2.32,20.66,25,3.9,2025-07-01
+Indianapolis,Postmates,Indian,17.2,2.68,2.18,22.06,39,3.6,2025-07-01
+Indianapolis,Postmates,Italian,18.38,4.04,3.18,25.6,44,4.3,2025-07-01
+Indianapolis,Postmates,Sandwich,11.56,2.15,2.03,15.74,51,4.5,2025-07-01
+Indianapolis,Postmates,Salad,10.35,4.92,1.82,17.09,30,3.9,2025-07-01
+Seattle,DoorDash,Burger,19.43,4.59,2.62,26.64,37,4.1,2025-07-01
+Seattle,DoorDash,Pizza,20.97,6.54,2.69,30.2,37,3.6,2025-07-01
+Seattle,DoorDash,Mexican,21.0,7.1,3.35,31.45,35,4.0,2025-07-01
+Seattle,DoorDash,Chinese,17.44,2.91,2.51,22.86,52,4.8,2025-07-01
+Seattle,DoorDash,Thai,20.37,7.1,2.79,30.26,35,4.1,2025-07-01
+Seattle,DoorDash,Indian,22.78,3.23,2.31,28.32,42,4.8,2025-07-01
+Seattle,DoorDash,Italian,21.49,6.19,3.67,31.35,26,4.4,2025-07-01
+Seattle,DoorDash,Sandwich,15.1,6.96,2.67,24.73,32,3.7,2025-07-01
+Seattle,DoorDash,Salad,14.13,5.84,1.48,21.45,25,4.1,2025-07-01
+Seattle,Uber Eats,Burger,19.87,7.0,3.11,29.98,53,4.1,2025-07-01
+Seattle,Uber Eats,Pizza,18.73,2.43,2.17,23.33,52,3.8,2025-07-01
+Seattle,Uber Eats,Mexican,20.58,3.45,2.31,26.34,26,4.2,2025-07-01
+Seattle,Uber Eats,Chinese,18.57,3.61,1.94,24.12,53,4.1,2025-07-01
+Seattle,Uber Eats,Thai,20.72,2.96,2.26,25.94,48,4.8,2025-07-01
+Seattle,Uber Eats,Indian,23.61,4.76,3.1,31.47,31,4.0,2025-07-01
+Seattle,Uber Eats,Italian,23.28,6.01,4.0,33.29,41,4.1,2025-07-01
+Seattle,Uber Eats,Sandwich,15.07,5.37,2.7,23.14,53,4.2,2025-07-01
+Seattle,Uber Eats,Salad,14.11,5.54,1.47,21.12,50,4.6,2025-07-01
+Seattle,Grubhub,Burger,19.6,2.52,3.21,25.33,33,3.6,2025-07-01
+Seattle,Grubhub,Pizza,17.8,3.23,2.97,24.0,37,3.8,2025-07-01
+Seattle,Grubhub,Mexican,18.5,5.84,2.52,26.86,45,4.2,2025-07-01
+Seattle,Grubhub,Chinese,17.34,3.74,2.0,23.08,39,4.7,2025-07-01
+Seattle,Grubhub,Thai,20.41,4.31,3.19,27.91,47,4.1,2025-07-01
+Seattle,Grubhub,Indian,20.06,3.37,2.79,26.22,33,3.9,2025-07-01
+Seattle,Grubhub,Italian,23.1,2.55,3.32,28.97,51,3.6,2025-07-01
+Seattle,Grubhub,Sandwich,16.67,4.82,2.02,23.51,48,4.6,2025-07-01
+Seattle,Grubhub,Salad,12.28,5.88,1.93,20.09,48,4.4,2025-07-01
+Seattle,Postmates,Burger,17.65,6.59,2.36,26.6,48,3.9,2025-07-01
+Seattle,Postmates,Pizza,24.36,4.27,3.28,31.91,33,3.5,2025-07-01
+Seattle,Postmates,Mexican,20.24,4.9,1.73,26.87,34,3.8,2025-07-01
+Seattle,Postmates,Chinese,16.61,2.44,2.06,21.11,43,3.6,2025-07-01
+Seattle,Postmates,Thai,19.11,3.88,2.93,25.92,28,4.5,2025-07-01
+Seattle,Postmates,Indian,23.91,4.42,2.64,30.97,54,4.6,2025-07-01
+Seattle,Postmates,Italian,23.3,3.69,2.16,29.15,40,4.7,2025-07-01
+Seattle,Postmates,Sandwich,17.77,7.12,2.76,27.65,45,4.2,2025-07-01
+Seattle,Postmates,Salad,13.86,4.22,1.68,19.76,34,4.4,2025-07-01
+Denver,DoorDash,Burger,15.23,5.62,2.11,22.96,35,4.3,2025-07-01
+Denver,DoorDash,Pizza,18.86,3.78,3.3,25.94,39,4.4,2025-07-01
+Denver,DoorDash,Mexican,18.88,2.64,2.48,24.0,49,3.7,2025-07-01
+Denver,DoorDash,Chinese,17.16,4.16,1.65,22.97,39,4.4,2025-07-01
+Denver,DoorDash,Thai,17.59,6.24,2.63,26.46,31,4.6,2025-07-01
+Denver,DoorDash,Indian,18.22,2.32,1.55,22.09,33,3.9,2025-07-01
+Denver,DoorDash,Italian,20.46,6.49,3.39,30.34,41,4.4,2025-07-01
+Denver,DoorDash,Sandwich,14.42,6.36,1.87,22.65,27,4.1,2025-07-01
+Denver,DoorDash,Salad,13.04,3.89,2.23,19.16,41,3.5,2025-07-01
+Denver,Uber Eats,Burger,18.46,2.24,2.78,23.48,38,4.6,2025-07-01
+Denver,Uber Eats,Pizza,17.57,4.65,2.29,24.51,30,4.2,2025-07-01
+Denver,Uber Eats,Mexican,20.35,2.42,2.66,25.43,51,4.1,2025-07-01
+Denver,Uber Eats,Chinese,14.36,6.42,2.17,22.95,43,4.0,2025-07-01
+Denver,Uber Eats,Thai,16.62,6.0,1.59,24.21,28,4.3,2025-07-01
+Denver,Uber Eats,Indian,18.61,5.78,2.42,26.81,32,3.8,2025-07-01
+Denver,Uber Eats,Italian,22.59,4.7,3.69,30.98,43,4.3,2025-07-01
+Denver,Uber Eats,Sandwich,13.71,2.91,1.35,17.97,36,3.9,2025-07-01
+Denver,Uber Eats,Salad,12.76,3.74,1.81,18.31,25,4.1,2025-07-01
+Denver,Grubhub,Burger,17.59,4.85,1.84,24.28,25,3.9,2025-07-01
+Denver,Grubhub,Pizza,18.1,5.2,2.05,25.35,26,3.8,2025-07-01
+Denver,Grubhub,Mexican,16.75,6.51,2.65,25.91,31,4.3,2025-07-01
+Denver,Grubhub,Chinese,13.85,4.03,2.15,20.03,48,4.8,2025-07-01
+Denver,Grubhub,Thai,16.52,6.33,2.83,25.68,32,3.6,2025-07-01
+Denver,Grubhub,Indian,18.48,2.98,3.27,24.73,29,4.8,2025-07-01
+Denver,Grubhub,Italian,20.98,3.02,2.9,26.9,41,4.0,2025-07-01
+Denver,Grubhub,Sandwich,13.46,3.35,1.35,18.16,49,4.5,2025-07-01
+Denver,Grubhub,Salad,13.05,4.61,1.94,19.6,50,4.3,2025-07-01
+Denver,Postmates,Burger,15.86,2.52,2.78,21.16,51,4.1,2025-07-01
+Denver,Postmates,Pizza,21.17,4.2,1.89,27.26,26,3.8,2025-07-01
+Denver,Postmates,Mexican,16.7,6.44,1.75,24.89,34,4.1,2025-07-01
+Denver,Postmates,Chinese,17.11,4.76,2.27,24.14,51,4.3,2025-07-01
+Denver,Postmates,Thai,20.63,6.35,1.87,28.85,34,4.3,2025-07-01
+Denver,Postmates,Indian,18.79,6.32,1.52,26.63,48,4.3,2025-07-01
+Denver,Postmates,Italian,23.85,5.18,2.88,31.91,41,4.0,2025-07-01
+Denver,Postmates,Sandwich,16.77,4.57,2.92,24.26,34,4.0,2025-07-01
+Denver,Postmates,Salad,15.04,3.02,2.21,20.27,40,4.4,2025-07-01
+Washington,DoorDash,Burger,18.07,5.95,2.04,26.06,44,4.5,2025-07-01
+Washington,DoorDash,Pizza,22.75,4.47,2.41,29.63,53,4.2,2025-07-01
+Washington,DoorDash,Mexican,19.08,7.17,1.96,28.21,35,4.3,2025-07-01
+Washington,DoorDash,Chinese,15.73,5.82,1.4,22.95,41,4.6,2025-07-01
+Washington,DoorDash,Thai,17.25,6.76,1.43,25.44,25,3.8,2025-07-01
+Washington,DoorDash,Indian,19.51,3.58,1.68,24.77,53,4.1,2025-07-01
+Washington,DoorDash,Italian,21.63,5.25,3.02,29.9,54,4.7,2025-07-01
+Washington,DoorDash,Sandwich,16.78,6.25,2.72,25.75,51,3.9,2025-07-01
+Washington,DoorDash,Salad,15.2,4.3,2.0,21.5,47,4.5,2025-07-01
+Washington,Uber Eats,Burger,18.69,2.72,2.19,23.6,33,3.8,2025-07-01
+Washington,Uber Eats,Pizza,22.81,3.99,3.8,30.6,25,4.7,2025-07-01
+Washington,Uber Eats,Mexican,20.74,6.17,2.6,29.51,53,4.6,2025-07-01
+Washington,Uber Eats,Chinese,17.85,6.39,2.32,26.56,42,4.3,2025-07-01
+Washington,Uber Eats,Thai,22.05,2.7,3.58,28.33,46,4.5,2025-07-01
+Washington,Uber Eats,Indian,21.77,3.35,3.03,28.15,31,3.6,2025-07-01
+Washington,Uber Eats,Italian,23.86,6.84,2.16,32.86,47,4.4,2025-07-01
+Washington,Uber Eats,Sandwich,14.04,4.35,2.42,20.81,45,3.7,2025-07-01
+Washington,Uber Eats,Salad,13.08,3.28,1.92,18.28,31,4.4,2025-07-01
+Washington,Grubhub,Burger,18.96,4.53,3.04,26.53,25,3.9,2025-07-01
+Washington,Grubhub,Pizza,18.85,4.86,2.52,26.23,45,4.5,2025-07-01
+Washington,Grubhub,Mexican,16.88,6.58,2.75,26.21,38,4.7,2025-07-01
+Washington,Grubhub,Chinese,18.11,3.96,2.09,24.16,34,3.9,2025-07-01
+Washington,Grubhub,Thai,17.59,3.92,3.0,24.51,30,4.2,2025-07-01
+Washington,Grubhub,Indian,20.09,3.32,3.33,26.74,34,4.6,2025-07-01
+Washington,Grubhub,Italian,21.73,4.6,2.64,28.97,46,3.9,2025-07-01
+Washington,Grubhub,Sandwich,14.91,4.36,2.27,21.54,44,3.8,2025-07-01
+Washington,Grubhub,Salad,12.51,3.18,1.0,16.69,26,4.2,2025-07-01
+Washington,Postmates,Burger,20.65,3.81,2.77,27.23,54,3.5,2025-07-01
+Washington,Postmates,Pizza,20.24,6.66,2.11,29.01,34,4.3,2025-07-01
+Washington,Postmates,Mexican,21.08,2.96,2.13,26.17,35,3.8,2025-07-01
+Washington,Postmates,Chinese,15.98,4.26,1.65,21.89,39,4.5,2025-07-01
+Washington,Postmates,Thai,21.03,7.12,2.55,30.7,25,4.1,2025-07-01
+Washington,Postmates,Indian,22.26,5.73,3.34,31.33,25,3.8,2025-07-01
+Washington,Postmates,Italian,23.75,5.01,3.27,32.03,53,4.2,2025-07-01
+Washington,Postmates,Sandwich,14.98,5.3,1.37,21.65,53,4.1,2025-07-01
+Washington,Postmates,Salad,16.93,4.85,1.55,23.33,50,4.7,2025-07-01
