@@ -32,6 +32,11 @@
         .insight-card.warning h4 { color: #991b1b; }
         .insight-card.warning p { color: #7f1d1d; }
         
+        /* Data badge */
+        .data-badge { display: inline-block; padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; vertical-align: middle; margin-left: 8px; }
+        .data-badge.real { background: #dcfce7; color: #166534; }
+        .data-badge.modeled { background: #fef3c7; color: #92400e; }
+        
         /* Charts */
         .chart-container { margin: 30px 0; text-align: center; }
         .chart-container img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
@@ -50,6 +55,11 @@
         .methodology-step .step-num { background: #3b82f6; color: white; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; flex-shrink: 0; }
         .methodology-step .step-content h4 { font-size: 1rem; margin-bottom: 4px; }
         .methodology-step .step-content p { color: #64748b; font-size: 0.9rem; }
+        
+        /* Disclaimer box */
+        .disclaimer { background: #fffbeb; border: 1px solid #fcd34d; border-radius: 8px; padding: 20px; margin: 20px 0; }
+        .disclaimer h4 { color: #92400e; font-size: 0.95rem; margin-bottom: 8px; }
+        .disclaimer p { color: #78350f; font-size: 0.9rem; }
         
         /* Footer */
         footer { text-align: center; padding: 40px; color: #64748b; font-size: 0.9rem; }
@@ -70,7 +80,7 @@
     <div class="container">
         <header>
             <h1>US burger delivery market report</h1>
-            <p class="subtitle">Pricing, inflation, and where to launch first in the US</p>
+            <p class="subtitle">A proof-of-concept pipeline for F&B competitive intelligence</p>
             <div class="meta">
                 <span>Prepared for: <strong>Burger Index hiring team</strong></span>
                 <span>Role: <strong>Data Analyst</strong></span>
@@ -84,45 +94,70 @@
             <span class="tag">BLS CPI</span>
             <span class="tag">Food delivery analytics</span>
             <span class="tag">Market sizing</span>
-            <span class="tag">Competitive intelligence</span>
             <span class="tag">Python / Pandas</span>
         </div>
 
         <!-- Executive Summary -->
         <section>
             <h2>What this is</h2>
-            <p>I looked at the US burger delivery market across 20 metro areas, 4 delivery platforms, and 9 cuisine types. This is the kind of work Burger Index does for Kitopi, Allo Beirut, and Nestlé in the 9 countries you cover today. I wanted to see what it looks like applied to the US, since that's the next market on the roadmap.</p>
+            <p>I built a data analysis pipeline that takes F&B market data, processes it, scores markets, and produces a visual report. Think of it as a working prototype of the kind of work Burger Index does for Kitopi, Allo Beirut, and Nestle in the 9 countries you cover today.</p>
+
+            <div class="disclaimer">
+                <h4>What's real and what's modeled</h4>
+                <p>Two of the three data sources are real and used as-is: The Economist Big Mac Index (1,948 observations, 2000 to 2026) and BLS Food Away from Home CPI (monthly since 1953). The delivery platform data (pricing across DoorDash, Uber Eats, Grubhub, Postmates) is <strong>simulated</strong>. I generated it using cost-of-living multipliers and publicly reported fee structures to demonstrate what the pipeline would output with a live scraping layer feeding it. The model, scoring framework, and visualization pipeline all work. The ingestion layer is what would make it production-ready.</p>
+            </div>
             
             <div class="insights-grid">
                 <div class="insight-card metric">
-                    <h4>New York City leads</h4>
-                    <p>Score: 81.3 out of 100. Largest metro (20.1M people), 68% delivery penetration, $29.91 average basket. The obvious place to start.</p>
-                </div>
-                <div class="insight-card metric">
-                    <h4>Delivery adds 39% to a burger</h4>
-                    <p>On average, across all 20 cities. Fees and service charges push a $16 menu burger to $23 at checkout. Chicago is worst, at 42%.</p>
+                    <h4>The Big Mac benchmark <span class="data-badge real">real data</span></h4>
+                    <p>The US Big Mac went from $2.24 in 2000 to $6.12 in 2026. That's 173% over 26 years, and the pace is accelerating.</p>
                 </div>
                 <div class="insight-card warning">
-                    <h4>Burger inflation is running hot</h4>
-                    <p>About 5% year over year, versus 3.8% for general food-away-from-home (BLS CPI). The gap has been widening since 2019. Restaurants are getting squeezed.</p>
+                    <h4>Burger inflation is running hot <span class="data-badge real">real data</span></h4>
+                    <p>BLS Food Away from Home CPI is averaging 3.8% year over year, down from a peak of 8.5% in mid-2022 but still above pre-pandemic norms.</p>
                 </div>
                 <div class="insight-card">
-                    <h4>The Big Mac gap</h4>
-                    <p>A Big Mac costs $6.12 at the counter (2026). The average delivered burger runs $22.68. People pay nearly four times as much for the convenience of delivery.</p>
+                    <h4>The delivery markup problem <span class="data-badge modeled">modeled</span></h4>
+                    <p>Modeled delivery data shows platforms adding roughly 39% to a burger's menu price once fees and service charges are included. In a live system, this is the kind of transparency restaurants would pay for.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>Market opportunity scoring <span class="data-badge modeled">modeled</span></h4>
+                    <p>The scoring model ranks NYC, LA, and SF as the top three US entry markets based on population, income, delivery penetration, and basket size. The framework works with any input data.</p>
                 </div>
             </div>
         </section>
 
         <!-- Key Findings -->
         <section>
-            <h2>Key findings</h2>
+            <h2>Findings</h2>
             
-            <h3>1. Where to deploy first</h3>
-            <p>I scored each metro on five things: population (25%), GDP per capita (20%), delivery penetration (25%), room left to grow based on cost of living (15%), and average basket size (15%). Here are the top 10.</p>
+            <h3>1. Big Mac price history <span class="data-badge real">real data</span></h3>
+            <p>The Economist has tracked the US Big Mac price quarterly since 2000. The trend tells a clear story about food inflation in the US.</p>
+            
+            <div class="chart-container">
+                <img src="output/charts/1_big_mac_history.png" alt="US Big Mac Price History">
+                <p class="chart-caption">Figure 1. The US Big Mac went from $2.24 in 2000 to $6.12 in 2026. Source: The Economist Big Mac Index.</p>
+            </div>
+
+            <h3>2. Restaurant inflation <span class="data-badge real">real data</span></h3>
+            <p>BLS tracks Food Away from Home CPI monthly. The year-over-year change peaked at 8.5% in mid-2022 during the post-pandemic inflation surge, and has since settled around 3.5 to 4%.</p>
+            
+            <div class="chart-container">
+                <img src="output/charts/2_bls_inflation.png" alt="BLS Food Away from Home CPI YoY">
+                <p class="chart-caption">Figure 2. BLS Food Away from Home CPI, year over year. Source: BLS via FRED (CUUR0000SEFV).</p>
+            </div>
+
+            <div class="chart-container">
+                <img src="output/charts/9_inflation_comparison.png" alt="Burger Price Inflation vs General Restaurant Inflation">
+                <p class="chart-caption">Figure 3. Burger-specific price growth (estimated 5% YoY) compared against BLS general restaurant inflation (3.8%).</p>
+            </div>
+
+            <h3>3. Market opportunity scoring <span class="data-badge modeled">modeled</span></h3>
+            <p>The pipeline scores each metro on five factors: population (25%), GDP per capita (20%), delivery penetration (25%), cost-of-living-adjusted headroom (15%), and average basket size (15%). The demographic inputs are real (Census estimates). The basket and penetration figures are modeled.</p>
             
             <div class="chart-container">
                 <img src="output/charts/3_market_opportunity.png" alt="Market Opportunity Score - Top 10 US Cities">
-                <p class="chart-caption">Figure 1. Market Opportunity Score for the top 10 US metros.</p>
+                <p class="chart-caption">Figure 4. Market Opportunity Score for the top 10 US metros. Demographics from Census; delivery metrics modeled.</p>
             </div>
 
             <div class="table-wrapper">
@@ -135,78 +170,58 @@
                             <th>GDP/Capita</th>
                             <th>Delivery Penetration</th>
                             <th>Avg Basket</th>
-                            <th>Burger Markup</th>
                             <th>Score</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr><td>1</td><td>New York, NY</td><td class="number">20.1M</td><td class="number">$95K</td><td class="number">68%</td><td class="number">$29.91</td><td class="number">37.8%</td><td class="number"><strong>81.3</strong></td></tr>
-                        <tr><td>2</td><td>Los Angeles, CA</td><td class="number">13.2M</td><td class="number">$82K</td><td class="number">65%</td><td class="number">$26.98</td><td class="number">36.4%</td><td class="number"><strong>69.0</strong></td></tr>
-                        <tr><td>3</td><td>San Francisco, CA</td><td class="number">4.7M</td><td class="number">$115K</td><td class="number">75%</td><td class="number">$32.44</td><td class="number">36.8%</td><td class="number"><strong>64.2</strong></td></tr>
-                        <tr><td>4</td><td>Washington, DC</td><td class="number">6.3M</td><td class="number">$95K</td><td class="number">67%</td><td class="number">$26.05</td><td class="number">38.4%</td><td class="number"><strong>63.9</strong></td></tr>
-                        <tr><td>5</td><td>San Jose, CA</td><td class="number">2.0M</td><td class="number">$125K</td><td class="number">72%</td><td class="number">$29.33</td><td class="number">38.5%</td><td class="number"><strong>63.1</strong></td></tr>
-                        <tr><td>6</td><td>Chicago, IL</td><td class="number">9.5M</td><td class="number">$76K</td><td class="number">58%</td><td class="number">$24.22</td><td class="number">41.7%</td><td class="number"><strong>62.5</strong></td></tr>
-                        <tr><td>7</td><td>Seattle, WA</td><td class="number">4.0M</td><td class="number">$98K</td><td class="number">70%</td><td class="number">$26.44</td><td class="number">38.0%</td><td class="number"><strong>61.9</strong></td></tr>
-                        <tr><td>8</td><td>Dallas, TX</td><td class="number">7.6M</td><td class="number">$74K</td><td class="number">56%</td><td class="number">$21.93</td><td class="number">38.9%</td><td class="number"><strong>59.5</strong></td></tr>
-                        <tr><td>9</td><td>Houston, TX</td><td class="number">7.1M</td><td class="number">$71K</td><td class="number">55%</td><td class="number">$20.34</td><td class="number">38.1%</td><td class="number"><strong>57.6</strong></td></tr>
-                        <tr><td>10</td><td>Austin, TX</td><td class="number">2.3M</td><td class="number">$85K</td><td class="number">65%</td><td class="number">$22.54</td><td class="number">38.7%</td><td class="number"><strong>56.9</strong></td></tr>
+                        <tr><td>1</td><td>New York, NY</td><td class="number">20.1M</td><td class="number">$95K</td><td class="number">68%</td><td class="number">$29.91</td><td class="number"><strong>81.3</strong></td></tr>
+                        <tr><td>2</td><td>Los Angeles, CA</td><td class="number">13.2M</td><td class="number">$82K</td><td class="number">65%</td><td class="number">$26.98</td><td class="number"><strong>69.0</strong></td></tr>
+                        <tr><td>3</td><td>San Francisco, CA</td><td class="number">4.7M</td><td class="number">$115K</td><td class="number">75%</td><td class="number">$32.44</td><td class="number"><strong>64.2</strong></td></tr>
+                        <tr><td>4</td><td>Washington, DC</td><td class="number">6.3M</td><td class="number">$95K</td><td class="number">67%</td><td class="number">$26.05</td><td class="number"><strong>63.9</strong></td></tr>
+                        <tr><td>5</td><td>San Jose, CA</td><td class="number">2.0M</td><td class="number">$125K</td><td class="number">72%</td><td class="number">$29.33</td><td class="number"><strong>63.1</strong></td></tr>
+                        <tr><td>6</td><td>Chicago, IL</td><td class="number">9.5M</td><td class="number">$76K</td><td class="number">58%</td><td class="number">$24.22</td><td class="number"><strong>62.5</strong></td></tr>
+                        <tr><td>7</td><td>Seattle, WA</td><td class="number">4.0M</td><td class="number">$98K</td><td class="number">70%</td><td class="number">$26.44</td><td class="number"><strong>61.9</strong></td></tr>
+                        <tr><td>8</td><td>Dallas, TX</td><td class="number">7.6M</td><td class="number">$74K</td><td class="number">56%</td><td class="number">$21.93</td><td class="number"><strong>59.5</strong></td></tr>
+                        <tr><td>9</td><td>Houston, TX</td><td class="number">7.1M</td><td class="number">$71K</td><td class="number">55%</td><td class="number">$20.34</td><td class="number"><strong>57.6</strong></td></tr>
+                        <tr><td>10</td><td>Austin, TX</td><td class="number">2.3M</td><td class="number">$85K</td><td class="number">65%</td><td class="number">$22.54</td><td class="number"><strong>56.9</strong></td></tr>
                     </tbody>
                 </table>
             </div>
 
-            <h3>2. The delivery markup problem</h3>
-            <p>Delivery platforms add 35 to 42% to a burger's menu price. If you're a restaurant trying to price competitively across four platforms in a single city, that gap is invisible without this kind of data. That's the problem Burger Index exists to solve.</p>
+            <div class="chart-container">
+                <img src="output/charts/7_market_bubble.png" alt="Market Bubble Chart">
+                <p class="chart-caption">Figure 5. Bubble size is population, color is opportunity score. Demographics from Census; delivery metrics modeled.</p>
+            </div>
+
+            <h3>4. Delivery markup analysis <span class="data-badge modeled">modeled</span></h3>
+            <p>The simulated data illustrates what a live pipeline would surface: how much delivery fees and service charges add to a burger's menu price, varying by city and platform. With real scraping, these charts would show actual restaurant prices and actual fee structures, updated daily.</p>
             
             <div class="chart-container">
                 <img src="output/charts/4_burger_markup_by_city.png" alt="Burger Delivery Markup % by City">
-                <p class="chart-caption">Figure 2. Total basket markup over menu price, by city. Delivery fee plus service fee.</p>
+                <p class="chart-caption">Figure 6. Modeled total basket markup over menu price by city. Simulated data.</p>
             </div>
 
             <div class="chart-container">
                 <img src="output/charts/8_price_comparison.png" alt="Big Mac vs Delivery Burger Price Gap">
-                <p class="chart-caption">Figure 3. A $6.12 Big Mac versus a $22.68 delivered burger. The $16.56 difference is all fees.</p>
+                <p class="chart-caption">Figure 7. Real Big Mac price ($6.12) versus modeled delivered burger ($22.68). The gap is the fee layer.</p>
             </div>
 
-            <h3>3. Platform fee structures</h3>
-            <p>The platforms are not priced the same. Postmates averages $24.16 per basket. Grubhub comes in at $22.36. That's an 8% spread on the same food.</p>
+            <h3>5. Platform fee structures <span class="data-badge modeled">modeled</span></h3>
             <div class="chart-container">
                 <img src="output/charts/5_platform_comparison.png" alt="Platform Comparison - Delivery Fees & Total Cost">
-                <p class="chart-caption">Figure 4. Postmates is priciest, Grubhub is cheapest. The spread is 8%.</p>
+                <p class="chart-caption">Figure 8. Modeled platform comparison. Simulated data based on publicly reported fee ranges.</p>
             </div>
 
-            <h3>4. Cuisine pricing</h3>
+            <h3>6. Cuisine pricing <span class="data-badge modeled">modeled</span></h3>
             <div class="chart-container">
                 <img src="output/charts/6_cuisine_pricing.png" alt="Cuisine Pricing Hierarchy">
-                <p class="chart-caption">Figure 5. Italian is the most expensive cuisine at $20.73 average. Salads are cheapest at $12.76. Burgers sit in the middle at $16.47.</p>
+                <p class="chart-caption">Figure 9. Modeled average menu price by cuisine type. Simulated data.</p>
             </div>
 
-            <h3>5. Inflation: burgers pulling ahead</h3>
-            <div class="chart-container">
-                <img src="output/charts/9_inflation_comparison.png" alt="Burger Price Inflation vs General Restaurant Inflation">
-                <p class="chart-caption">Figure 6. Burger prices (estimated 5% YoY) are climbing faster than general restaurant inflation (3.8%).</p>
-            </div>
-
-            <div class="chart-container">
-                <img src="output/charts/2_bls_inflation.png" alt="BLS Food Away from Home CPI YoY">
-                <p class="chart-caption">Figure 7. BLS Food Away from Home CPI, year over year. Peaked at 8.5% in mid-2022, now hovering around 3.5 to 4%.</p>
-            </div>
-
-            <h3>6. The Big Mac as a benchmark</h3>
-            <div class="chart-container">
-                <img src="output/charts/1_big_mac_history.png" alt="US Big Mac Price History">
-                <p class="chart-caption">Figure 8. The US Big Mac went from $2.24 in 2000 to $6.12 in 2026. That's 173% over 26 years.</p>
-            </div>
-
-            <h3>7. Market structure: penetration versus basket size</h3>
-            <div class="chart-container">
-                <img src="output/charts/7_market_bubble.png" alt="Market Bubble Chart">
-                <p class="chart-caption">Figure 9. Bubble size is population, color is opportunity score. NYC and SF sit top-right: high penetration, high basket. Dallas and Houston are lower-left with more room to grow.</p>
-            </div>
-
-            <h3>8. City by platform fee heatmap</h3>
+            <h3>7. City by platform fee heatmap <span class="data-badge modeled">modeled</span></h3>
             <div class="chart-container">
                 <img src="output/charts/10_fee_heatmap.png" alt="City x Platform Delivery Fee Heatmap">
-                <p class="chart-caption">Figure 10. NYC plus Uber Eats: $6.12 average delivery fee. San Antonio plus Grubhub: $3.41. An 80% spread across the same grid.</p>
+                <p class="chart-caption">Figure 10. Modeled delivery fees by city and platform. Simulated data.</p>
             </div>
         </section>
 
@@ -218,50 +233,58 @@
             <div class="methodology-step">
                 <div class="step-num">1</div>
                 <div class="step-content">
-                    <h4>Data sources</h4>
-                    <p>Three primary sources. The Economist's Big Mac Index (1,948 observations, 60+ countries, 2000-2026, MIT licensed on GitHub). BLS Food Away from Home CPI via FRED (series CUUR0000SEFV, monthly since 1953). Census/ACS demographics for 20 metros. Delivery platform data is simulated from publicly reported fee structures for DoorDash, Uber Eats, Grubhub, and Postmates. In production, that last piece would be replaced by live scraping.</p>
+                    <h4>Real data sources</h4>
+                    <p>The Economist Big Mac Index: 1,948 rows, quarterly from 2000 to 2026, 60+ countries. Downloaded directly from their GitHub repo. BLS Food Away from Home CPI via FRED (series CUUR0000SEFV), monthly since 1953. Both used as-is after loading.</p>
                 </div>
             </div>
 
             <div class="methodology-step">
                 <div class="step-num">2</div>
                 <div class="step-content">
-                    <h4>Cleaning and normalization</h4>
-                    <p>I aligned the quarterly Big Mac data to the monthly BLS series by forward-filling. Demographics joined on metro name. For the delivery data, I normalized item price, delivery fee, and service fee into a single total basket column, then flagged outliers with IQR per city-platform-cuisine group.</p>
+                    <h4>Simulated delivery data</h4>
+                    <p>20 US metros, 4 platforms, 9 cuisines = 720 rows. Generated with NumPy using cost-of-living multipliers per city, platform-specific fee ranges based on publicly reported 2024 to 2025 structures, and cuisine-specific base prices. A fixed random seed (42) ensures reproducibility. This data stands in for what a live scraping layer would feed into the pipeline.</p>
                 </div>
             </div>
 
             <div class="methodology-step">
                 <div class="step-num">3</div>
                 <div class="step-content">
-                    <h4>Derived metrics</h4>
-                    <p>Delivery markup percentage: how much the total basket exceeds the menu price. Fee burden: delivery plus service fee as a share of menu price. A composite market opportunity score blending five normalized factors. Burger-specific cuts were pulled out separately. Inflation is indexed to 2019 = 100.</p>
+                    <h4>Processing</h4>
+                    <p>For the real data: computed year-over-year percentage change on the BLS CPI series, filtered the Big Mac data to US-only, and calculated cumulative price change. For the simulated data: computed per-city aggregates (mean item price, delivery fee, service fee, total basket) using pandas groupby, derived markup percentage and fee burden, and joined with demographic data on city name.</p>
                 </div>
             </div>
 
             <div class="methodology-step">
                 <div class="step-num">4</div>
                 <div class="step-content">
-                    <h4>Visualization</h4>
-                    <p>Ten charts at 300 DPI via Matplotlib and Seaborn: time series, ranked bars, bubble plots, heatmaps, platform comparisons. All saved to output/charts/ with descriptive filenames.</p>
+                    <h4>Market scoring model</h4>
+                    <p>Each metro gets a composite score from 0 to 100, blending five normalized factors: population (25%), GDP per capita (20%), delivery penetration (25%), cost-of-living-adjusted headroom (15%), and average basket size (15%). The weights are configurable in the script. With real data, the same model would produce different scores but the framework stays the same.</p>
                 </div>
             </div>
 
             <div class="methodology-step">
                 <div class="step-num">5</div>
                 <div class="step-content">
+                    <h4>Visualization</h4>
+                    <p>Ten charts at 300 DPI via Matplotlib and Seaborn: time series, ranked bars, bubble plots, heatmaps, and platform comparisons. All saved to output/charts/ with descriptive filenames.</p>
+                </div>
+            </div>
+
+            <div class="methodology-step">
+                <div class="step-num">6</div>
+                <div class="step-content">
                     <h4>Reproducibility</h4>
-                    <p>One command: <code>python generate_charts.py</code>. Pinned dependencies in requirements.txt. Raw data in data/, processed intermediates alongside it.</p>
+                    <p>One command: <code>python generate_charts.py</code>. Pinned dependencies in requirements.txt. Raw data in data/, processed intermediates alongside it. The simulated delivery data is regenerated deterministically via fixed seed.</p>
                 </div>
             </div>
 
             <h3>Project structure</h3>
             <pre><code>Burger-Index-Application/
 ├── data/
-│   ├── big_mac_index.csv          # The Economist (1948 rows)
-│   ├── bls_food_away.csv          # FRED CUUR0000SEFV (881 rows)
+│   ├── big_mac_index.csv          # The Economist (1948 rows, REAL)
+│   ├── bls_food_away.csv          # FRED CUUR0000SEFV (881 rows, REAL)
 │   ├── us_city_demographics.csv   # 20 metros, 7 features
-│   ├── delivery_platform_pricing.csv  # 720 obs (20x4x9)
+│   ├── delivery_platform_pricing.csv  # 720 obs (SIMULATED)
 │   ├── city_analysis.csv          # Processed city metrics
 │   └── burger_city_analysis.csv   # Burger-specific
 ├── generate_charts.py             # 10-chart pipeline
@@ -269,36 +292,36 @@
 └── report.html                    # This report</code></pre>
         </section>
 
-        <!-- Strategic Recommendations -->
+        <!-- What's Next -->
         <section>
-            <h2>What I'd build for the US launch</h2>
+            <h2>What would make this production-ready</h2>
             
             <div class="insights-grid">
                 <div class="insight-card metric">
-                    <h4>Start with NYC, LA, SF</h4>
-                    <p>38 million people combined, 69% average delivery penetration, $29.78 average basket. The revenue density per square mile is higher here than anywhere else in the country.</p>
-                </div>
-                <div class="insight-card metric">
-                    <h4>Then Chicago, DC, Seattle</h4>
-                    <p>Another 20 million people, 62% penetration. Chicago's 42% markup means consumers there pay the most for delivery, which means restaurants there have the strongest reason to buy pricing intelligence.</p>
+                    <h4>Live data ingestion</h4>
+                    <p>The biggest gap. The pipeline, scoring model, and visualization layer all work. What's missing is a scraping layer that pulls real menu prices, delivery fees, and ratings from platforms daily.</p>
                 </div>
                 <div class="insight-card">
-                    <h4>Burgers are the wedge</h4>
-                    <p>Burger markup runs 35 to 42% versus 28 to 35% for pizza. Shake Shack, Five Guys, and the wave of smash burger concepts opening across the US have the most to gain from seeing real-time prices.</p>
+                    <h4>Data validation</h4>
+                    <p>Real scraped data needs cleaning: deduplication, outlier detection, currency normalization, product matching across platforms. The simulated data sidesteps this, but a production system needs it.</p>
+                </div>
+                <div class="insight-card">
+                    <h4>Historical tracking</h4>
+                    <p>Right now it's a snapshot. A production version stores daily observations so you can track price changes over time, spot trends, and alert on anomalies.</p>
                 </div>
                 <div class="insight-card warning">
-                    <h4>The missing piece is live data</h4>
-                    <p>This report uses simulated snapshots. A production version means scraping menus, limited-time offers, and dynamic delivery fees continuously. The model and scoring are ready. The ingestion layer is what I'd build first.</p>
+                    <h4>Scale</h4>
+                    <p>720 simulated rows run in seconds. Real coverage means tens of thousands of restaurants, hundreds of thousands of menu items, refreshed daily. That's an infrastructure question, not an analysis question.</p>
                 </div>
             </div>
 
-            <h3>Five things to ship first</h3>
+            <h3>Five things I'd build next</h3>
             <ol style="margin-left: 20px; line-height: 2.2;">
-                <li>A daily price tracker for the top 50 burger chains across four platforms in ten metros</li>
-                <li>A fee transparency dashboard that breaks down delivery and service fees by platform, city, and cuisine</li>
+                <li>A scraper for the top 50 burger chains across two platforms in one city, to replace the simulated data with real numbers</li>
+                <li>A cleaning layer that handles deduplication, outlier detection, and product matching across platforms</li>
+                <li>A daily storage pipeline so price changes can be tracked over time, not just snapshotted</li>
                 <li>Inflation alerts that fire when burger price growth exceeds BLS food-away CPI by more than 1.5 percentage points</li>
                 <li>A reusable expansion score for any new metro, fed by Census and platform APIs</li>
-                <li>Competitive benchmarking for Shake Shack versus Five Guys versus local concepts, updated daily</li>
             </ol>
         </section>
 
@@ -310,8 +333,8 @@
             <ul style="margin-left: 20px; line-height: 2;">
                 <li>The Economist Big Mac Index: MIT License, via <a href="https://github.com/TheEconomist/big-mac-data" target="_blank">TheEconomist/big-mac-data</a></li>
                 <li>BLS CPI data: public domain, via Federal Reserve Economic Data (FRED)</li>
-                <li>US demographics: derived from Census Bureau ACS 2023 1-year estimates</li>
-                <li>Delivery platform data: simulated based on publicly reported fee structures (2024-2025)</li>
+                <li>US demographics: estimated from Census Bureau ACS data</li>
+                <li>Delivery platform data: <strong>simulated</strong> using NumPy with cost-of-living multipliers and publicly reported fee ranges</li>
             </ul>
 
             <h3>Dependencies</h3>
@@ -327,19 +350,18 @@ cd Burger-Index-Application
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# 2. Download raw data (auto-fetched on first run)
-# 3. Generate all charts
+# 2. Generate all charts (downloads real data, simulates delivery data)
 python generate_charts.py
 
-# 4. Open report.html in a browser</code></pre>
+# 3. Open report.html in a browser</code></pre>
         </section>
 
         <footer>
-            <p>Everything in this report went from raw data to finished chart through one Python script. No spreadsheets, no hand-editing, no gap between what the code does and what you see here.</p>
-            <p>If you want to walk through the code, or talk about how to productionize the ingestion layer, I'm ready.</p>
+            <p>This report combines real economic data (Big Mac Index, BLS CPI) with a simulated delivery pricing layer to demonstrate a working F&B intelligence pipeline. The analysis framework, scoring model, and visualization pipeline are production-ready. The ingestion layer is the next step.</p>
+            <p>If you want to walk through the code, or talk about building the scraping layer, I'm ready.</p>
             
             <div class="contact">
-                <p><a href="mailto:your-email@example.com">your-email@example.com</a> &nbsp;|&nbsp; <a href="https://github.com/yourusername" target="_blank">GitHub</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+                <p><a href="mailto:your-email@example.com">your-email@example.com</a> &nbsp;|&nbsp; <a href="https://github.com/IamSolomonChika/burger-index-application" target="_blank">GitHub</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
             </div>
         </footer>
     </div>
