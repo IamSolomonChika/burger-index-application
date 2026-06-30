@@ -1,4 +1,4 @@
-# Burger Index — US burger delivery market report
+# Burger Index - US burger delivery market report
 
 Pricing and competitive analysis of the US burger delivery market, across 20 metros, 4 delivery platforms, and 9 cuisine types. Built as a work sample for the Data Analyst role at Burger Index.
 
